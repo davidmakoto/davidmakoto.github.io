@@ -1,21 +1,18 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "name":"David Ward",
+    "description":"Software engineer with experience in fullstack",
+    "image":"profilepic-cropped.png",
+    "bio":" I believe technology powers the modern world and that makes contributing to it infinitely exciting. During my freetime you can find me being a foodie around LA with friends or playing with raspberry pi's and microcontrollers in attempts to automate daily chores.",
+    "contactmessage":"Please reach out to me through LinkedIn or email through the form below for the quickest response .",
+    "email": "DavidMacotoWard@gmail.com",
+    "github":"https://github.com/davidmakoto",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city":"Los Angeles",
+      "state":"California",
+      "zip": "90034"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "http://www.davidmakoto.github.io",
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
@@ -24,162 +21,140 @@
         "className":"fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/davidmacotoward/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/davidmakoto",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Specalties: Full stack with .NET Framework and Angular and data analysis using Python.",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"California State University, Northridge",
+        "degree":"B.S. in Computer Science",
+        "graduated":"December 2021",
+        "description":" College was humbling and insightful and I'm very grateful for all of the people I've met and experiences I've had."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"CSUN Research Lab",
+        "title":"Student researcher ",
+        "years":"June 2021 - August 2021",
+        "description":"Investigated techniques to reduce energy consumption of data centers using simulation software. Created 3D figures for symposium. PI: Dr. Xunfei Jiang."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"STEM Tutoring Lab",
+        "title":"Tutor",
+        "years":"January 2017 - June 2018",
+        "description":"Tutored 11 lower division math, chemistry, and computer science courses. Worked with an average of 2-4 students at a time for ~15 hours a week."
+      },
+      {
+        "company":"UCLA",
+        "title":"Summer intern",
+        "years":"June 2016 - August 2016",
+        "description":"Used MATLAB to search for hot pixels in a camera designed to highlight tumors for surgeons in real time. Included poster session and symposium presentations with audience of 200+ students."
       }
     ],
     "skills":[
       {
         "name":"Python",
+        "level":"80%"
+      },
+      {
+        "name":"Ruby on Rails",
+        "level":"65%"
+      },
+      {
+        "name":"Javascript",
+        "level":"65%"
+      },
+      {
+        "name":"C++",
         "level":"60%"
       },
       {
-        "name":"VueJs",
+        "name":"Java",
         "level":"55%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"C#",
+        "level":"40%"
       },
       {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"Bash",
+        "level":"30%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
+        "title":"Membrane Protein Domains Motifs Annotations Database",
         "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "description": "Fullstack SPA containing novel protein domain data using the .NET entity framework for the backend and Angular for the frontend deployed on Apache server.",
+        "languages":"C#, Angular.js, MariaSQL, Apache",
+        "image":"Pandos_github_banner.png",
+        "url":"https://github.com/davidmakoto/pandos-dotnet",
+        "years":"2021-2022"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"GPU Enabled \"SuperBihelix\" Protein Conformational Sampling",
+        "description": "Created boilerplate code to organize GPCR protein information and enable parallel execution of structural bioinformatics simulation.",
+        "languages":"Python, CUDA C/C++",
+        "image":"bihelix-movie.gif",
+        "url":"https://github.com/davidmakoto/SuperBihelix-Python",
+        "years":"2020-2022"
+
       },
       {
-        "title":"Original Thai Food",
+        "title":"Wildfire Prediction using ML on raw sattelite data",
+        "category":"",
+        "description": "Senior Group Project: Used ML to analyize raw sattelite images to detect patterns related to fire conditions in California",
+        "languages":"Python, GDAL, NumPy, Pandas",
+        "image":"CA-interactive-fire-incidents-map.png",
+        "url":"https://github.com/KayleePham/Beat-the-Heat--Machine-Learning",
+        "years":"2020-2021"
+      },
+      {
+        "title":"Showcase Website for ML Wildfire Prediction",
+        "category":"",
+        "description": "Website describing senior project with interactive map of past fires",
+        "languages":"D3.js,   Javascript, html, css",
+        "image":"forrest-fire.jpg",
+        "url":"https://github.com/KayleePham/Beat-the-Heat--Machine-Learning/tree/master/Senior-Design-Website-Template",
+        "years":"2020-2021"
+      },
+      {
+        "title":"Screeps: Sandbox Programming Game",
         "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "description": "Strategy game played with javascript",
+        "languages":"Javascript",
+        "image":"screeps-logo.jpg",
+        "url":"https://github.com/davidmakoto/Screeps",
+        "years":"2019-2020"
       }
     ]
+  },
+
+
+  
+  "card":{
+    "projects": [
+      {
+        "title":"Protein Domain Annotations Database",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"gpcr4.jpg",
+        "url":"https://github.com/davidmakoto/pandos-dotnet"
+      }
+      
+    ]
   }
+
 }
