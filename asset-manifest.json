@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/davidmakoto.github.io/davidmakoto.github.io/static/css/main.bab0b925.chunk.css",
-    "main.js": "/davidmakoto.github.io/davidmakoto.github.io/static/js/main.951ba0e9.chunk.js",
-    "main.js.map": "/davidmakoto.github.io/davidmakoto.github.io/static/js/main.951ba0e9.chunk.js.map",
-    "runtime-main.js": "/davidmakoto.github.io/davidmakoto.github.io/static/js/runtime-main.0ee60d55.js",
-    "runtime-main.js.map": "/davidmakoto.github.io/davidmakoto.github.io/static/js/runtime-main.0ee60d55.js.map",
-    "static/js/2.a25c794a.chunk.js": "/davidmakoto.github.io/davidmakoto.github.io/static/js/2.a25c794a.chunk.js",
-    "static/js/2.a25c794a.chunk.js.map": "/davidmakoto.github.io/davidmakoto.github.io/static/js/2.a25c794a.chunk.js.map",
-    "static/js/3.37192441.chunk.js": "/davidmakoto.github.io/davidmakoto.github.io/static/js/3.37192441.chunk.js",
-    "static/js/3.37192441.chunk.js.map": "/davidmakoto.github.io/davidmakoto.github.io/static/js/3.37192441.chunk.js.map",
-    "index.html": "/davidmakoto.github.io/davidmakoto.github.io/index.html",
-    "static/css/main.bab0b925.chunk.css.map": "/davidmakoto.github.io/davidmakoto.github.io/static/css/main.bab0b925.chunk.css.map",
-    "static/js/2.a25c794a.chunk.js.LICENSE.txt": "/davidmakoto.github.io/davidmakoto.github.io/static/js/2.a25c794a.chunk.js.LICENSE.txt"
+    "main.css": "/davidmakoto.github.io/static/css/main.bab0b925.chunk.css",
+    "main.js": "/davidmakoto.github.io/static/js/main.951ba0e9.chunk.js",
+    "main.js.map": "/davidmakoto.github.io/static/js/main.951ba0e9.chunk.js.map",
+    "runtime-main.js": "/davidmakoto.github.io/static/js/runtime-main.4cdbddb0.js",
+    "runtime-main.js.map": "/davidmakoto.github.io/static/js/runtime-main.4cdbddb0.js.map",
+    "static/js/2.a25c794a.chunk.js": "/davidmakoto.github.io/static/js/2.a25c794a.chunk.js",
+    "static/js/2.a25c794a.chunk.js.map": "/davidmakoto.github.io/static/js/2.a25c794a.chunk.js.map",
+    "static/js/3.37192441.chunk.js": "/davidmakoto.github.io/static/js/3.37192441.chunk.js",
+    "static/js/3.37192441.chunk.js.map": "/davidmakoto.github.io/static/js/3.37192441.chunk.js.map",
+    "index.html": "/davidmakoto.github.io/index.html",
+    "static/css/main.bab0b925.chunk.css.map": "/davidmakoto.github.io/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.a25c794a.chunk.js.LICENSE.txt": "/davidmakoto.github.io/static/js/2.a25c794a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ee60d55.js",
+    "static/js/runtime-main.4cdbddb0.js",
     "static/js/2.a25c794a.chunk.js",
     "static/css/main.bab0b925.chunk.css",
     "static/js/main.951ba0e9.chunk.js"
