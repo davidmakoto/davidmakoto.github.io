@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
+// import Particles from 'react-particles-js';
+
 import Fade from "react-reveal";
+
+// import particlesConfig from '../config/particlesConfig';
+
 
 class Header extends Component {
   render() {
@@ -13,7 +18,12 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+
+        <ParticlesBg
+          type="circle"
+          num={200}
+          bg={true} 
+          />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
