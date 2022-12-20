@@ -3,7 +3,7 @@
     "name":"David Ward",
     "description":"Software engineer with experience in fullstack development and data analysis",
     "image":"profilepic-cropped.png",
-    "bio":" I believe technology powers the modern world and that makes contributing to it infinitely exciting. During my freetime you can find me being a foodie around LA with friends or playing with raspberry pi's and microcontrollers in attempts to automate daily chores.",
+    "bio":" I believe technology powers the modern world, and that makes contributing to it infinitely exciting. During my freetime, you can find me eating around LA with friends or playing with raspberry pis and microcontrollers in attempts to automate daily chores.",
     "contactmessage":"Please reach out to me through LinkedIn or email through the form below for the quickest response .",
     "email": "DavidMacotoWard@gmail.com",
     "github":"https://github.com/davidmakoto",
@@ -39,7 +39,7 @@
         "school":"California State University, Northridge",
         "degree":"B.S. in Computer Science",
         "graduated":"December 2021",
-        "description":" College was humbling and insightful and I'm very grateful for all of the people I've met and experiences I've had."
+        "description":" College taught me how to learn and gave me many invaluable mentors."
       }
     ],
     "work":[
@@ -65,7 +65,7 @@
         "company":"UCLA",
         "title":"Summer intern",
         "years":"June 2016 - August 2016",
-        "description":"Analyized medical instrumentation data, learned about the research process, and participated poster and symposium presentations."
+        "description":"Analyzed medical instrumentation data, learned about the research process, and participated in poster and symposium presentations."
       }
     ],
     "skills":[
