@@ -50,22 +50,33 @@
         "description":"Added features or debugged issues on social media web app for an early stage startup. Used Ruby on Rails, PostgreSQL, ActiveRecord, and Stimulus.js/Hotwire."
       },
       {
-        "company":"CSUN Research Lab",
-        "title":"Student researcher",
-        "years":"June 2021 - August 2021",
-        "description":"Researched data center energy consumption via simulations. Included poster and symposium presentation."
-      },
-      {
         "company":"STEM Tutoring Lab",
         "title":"Tutor",
         "years":"January 2017 - June 2018",
         "description":"Tutored many lower division math, chemistry, and computer science courses."
+      }
+    ],
+    "research":[
+      {
+        "company":"IEEE Machine Learning and Applications Conference Paper",
+        "title":"Data analyst, web developer, project manager, major contributing writer",
+        "years":"2023",
+        "description":"Senior group research project accepted for publication for IEEE conference paper. Used machine learning to predict wildfires in California with 93% accuracy from raw image data. Spent following summer and fall rewriting paper for submission.",
+        "funding": "N/A"
+      },
+      {
+        "company":"CSUN Research Lab",
+        "title":"Student researcher",
+        "years":"June 2021 - August 2021",
+        "description":"Researched data center energy consumption via simulations. Included poster and symposium presentation.",
+        "funding": "CSUN LSAMP"
       },
       {
         "company":"UCLA",
         "title":"Summer intern",
         "years":"June 2016 - August 2016",
-        "description":"Analyzed medical instrumentation data, learned about the research process, and participated in poster and symposium presentations."
+        "description":"Analyzed medical instrumentation data, learned about the research process, and participated in poster and symposium presentations.",
+        "funding": "SMC/UCLA Science Research Initative"
       }
     ],
     "skills":[
