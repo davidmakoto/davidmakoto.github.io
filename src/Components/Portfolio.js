@@ -33,25 +33,20 @@ class Portfolio extends Component {
             <div style={{ textAlign: "center" }}>
               <h2><a href={projects.url}>{projects.title}</a></h2>
               <div className="languages">
-                <p>{projects.languages} </p> 
+                <p className="project-languages">{projects.languages} </p> 
               </div>
               <div className="years">
                 <p>{projects.years} </p> 
               </div>
-              <b>
+              <b className="project-description">
                 {projects.description} 
               </b> 
             </div>
             <ul className="social">
-                {/* <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
-                </a> */}
               <a href={projects.url} className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
                 </a>
               </ul>
-            {/* <div style={{ textAlign: "center" }}>{projects.url}</div> */}
-
           </div>
         </div>
       );
@@ -63,7 +58,6 @@ class Portfolio extends Component {
           <div className="row">
             <div className="twelve columns collapsed">
               <h1>Projects</h1>
-
               <div
                 id="portfolio-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"

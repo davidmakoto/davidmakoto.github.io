@@ -457,6 +457,22 @@ ul#nav li.current a { color: #fe6928; }
 
 }
 
+#portfolio .project-description {
+   /* letter-spacing: 1px; */
+   text-align: center;
+   color: #766894; 
+   margin: 15px;
+
+}
+#portfolio .project-languages {
+   /* letter-spacing: 1px; */
+   text-align: center;
+   color: #766894; 
+   margin: 15px;
+
+}
+
+
 #portfolio a, #portfolio a:visited  { color: #80adf5; }
 /* #portfolio .download {
    width: 58.33333%;
