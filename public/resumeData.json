@@ -109,15 +109,6 @@
   "portfolio":{
     "projects": [
       {
-        "title":"IEEE Conference Paper",
-        "category":"",
-        "description": "IEEE Machine Learning and Applications Paper based on senior design group project researching the use of ML to predict wildfires in California.",
-        "languages":"",
-        "image":"IEEE.png",
-        "url":"http://www.csun.edu/~xjiang/publications.html#Conference-papers",
-        "years":"2021-2022"
-      },
-      {
         "title":"Membrane Protein Domains Motifs Annotations Database",
         "category":"My Travel Blog for my post-university travels",
         "description": "Fullstack SPA containing novel protein domain data using the .NET entity framework for the backend and Angular for the frontend deployed on Apache server.",
