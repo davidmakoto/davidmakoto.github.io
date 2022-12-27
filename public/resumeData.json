@@ -145,6 +145,15 @@
         "years":"2020-2021"
       },
       {
+        "title":"Showcase Website for ML Wildfire Prediction",
+        "category":"",
+        "description": "Website describing senior project with interactive map of past fires",
+        "languages":"D3.js,   Javascript, html, css",
+        "image":"forrest-fire.jpg",
+        "url":"https://github.com/KayleePham/Beat-the-Heat--Machine-Learning/tree/master/Senior-Design-Website-Template",
+        "years":"2020-2021"
+      },
+      {
         "title":"Screeps: Sandbox Programming Game",
         "category":"Website I built for a restaurant I like in Thailand",
         "description": "Strategy game played with javascript",
