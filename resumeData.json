@@ -60,7 +60,7 @@
       {
         "company":"IEEE Machine Learning and Applications Conference Paper",
         "title":"Data analyst, web developer, project manager, major contributing writer",
-        "years":"2023",
+        "years":"2022",
         "description":"Senior group research project accepted for publication for IEEE conference paper. Used machine learning to predict wildfires in California with 93% accuracy from raw image data. Spent following summer and fall rewriting paper for submission.",
         "funding": "N/A"
       },
@@ -108,15 +108,6 @@
   },
   "portfolio":{
     "projects": [
-      {
-        "title":"IEEE Conference Paper",
-        "category":"",
-        "description": "IEEE Machine Learning and Applications Paper based on senior design group project researching the use of ML to predict wildfires in California.",
-        "languages":"",
-        "image":"IEEE.png",
-        "url":"http://www.csun.edu/~xjiang/publications.html#Conference-papers",
-        "years":"2021-2022"
-      },
       {
         "title":"Membrane Protein Domains Motifs Annotations Database",
         "category":"My Travel Blog for my post-university travels",
