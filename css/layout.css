@@ -473,6 +473,22 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 
+.funding {
+   /* letter-spacing: 1px; */
+   font: 11px/24px 'opensans-regular', sans-serif;
+
+   text-align: right;
+   color: #766894; 
+   margin: 15px;
+}
+.funder {
+   font: 12px/26px 'opensans-bold', sans-serif;
+   color: #766894; 
+
+   
+}
+
+
 #portfolio a, #portfolio a:visited  { color: #80adf5; }
 /* #portfolio .download {
    width: 58.33333%;
