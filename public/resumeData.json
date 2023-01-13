@@ -4,7 +4,7 @@
     "description":"Software engineer with experience in fullstack development and data analysis",
     "image":"profilepic-cropped.png",
     "bio":" I believe technology powers the modern world, and that makes contributing to it infinitely exciting. During my freetime, you can find me eating around LA with friends or playing with raspberry pis and microcontrollers in attempts to automate daily chores.",
-    "contactmessage":"Please reach out to me through LinkedIn or email through the form below for the quickest response.",
+    "contactmessage":"Please reach out to me through LinkedIn or email me at DavidMacotoWard@gmail.com.",
     "email": "DavidMacotoWard@gmail.com",
     "github":"https://github.com/davidmakoto",
     "address":{
@@ -15,11 +15,6 @@
     "website": "http://www.davidmakoto.github.io",
     "resumedownload":"../images/David_Ward_resume.pdf",
     "social":[
-      {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/davidmacotoward/",
