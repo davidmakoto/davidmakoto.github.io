@@ -52,7 +52,8 @@ class Resume extends Component {
           </p>
           <p>{research.description}</p>
           <p className="funding">
-            Funding: {research.funding}
+            Funding: 
+            <div className="funder">{research.funding}</div>
           </p>
         </div>
       );

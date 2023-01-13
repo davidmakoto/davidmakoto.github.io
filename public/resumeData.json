@@ -4,7 +4,7 @@
     "description":"Software engineer with experience in fullstack development and data analysis",
     "image":"profilepic-cropped.png",
     "bio":" I believe technology powers the modern world, and that makes contributing to it infinitely exciting. During my freetime, you can find me eating around LA with friends or playing with raspberry pis and microcontrollers in attempts to automate daily chores.",
-    "contactmessage":"Please reach out to me through LinkedIn or email through the form below for the quickest response .",
+    "contactmessage":"Please reach out to me through LinkedIn or email through the form below for the quickest response.",
     "email": "DavidMacotoWard@gmail.com",
     "github":"https://github.com/davidmakoto",
     "address":{
@@ -47,7 +47,7 @@
         "company":"Layers Media",
         "title":"Full stack web developer",
         "years":"July 2022 - December 2022",
-        "description":"Added features or debugged issues on social media web app for an early stage startup. Used Ruby on Rails, PostgreSQL, ActiveRecord, and Stimulus.js/Hotwire."
+        "description":"Added features and debugged issues on social media web app for an early stage startup. Used Ruby on Rails, PostgreSQL, ActiveRecord, and Stimulus.js/Hotwire."
       },
       {
         "company":"STEM Tutoring Lab",
@@ -58,10 +58,10 @@
     ],
     "research":[
       {
-        "company":"IEEE Machine Learning and Applications Conference Paper",
+        "company":"IEEE Conference Publication",
         "title":"Data analyst, web developer, project manager, major contributing writer",
-        "years":"2023",
-        "description":"Senior group research project accepted for publication for IEEE conference paper. Used machine learning to predict wildfires in California with 93% accuracy from raw image data. Spent following summer and fall rewriting paper for submission.",
+        "years":"2022",
+        "description":"Senior group research project predicted wildfires in California with 93% accuracy using machine learning and raw image data. Accepted for publication in 2022 international IEEE machine learning and applications conference short paper.",
         "funding": "N/A"
       },
       {
@@ -108,15 +108,6 @@
   },
   "portfolio":{
     "projects": [
-      {
-        "title":"IEEE Conference Paper",
-        "category":"",
-        "description": "IEEE Machine Learning and Applications Paper based on senior design group project researching the use of ML to predict wildfires in California.",
-        "languages":"",
-        "image":"IEEE.png",
-        "url":"http://www.csun.edu/~xjiang/publications.html#Conference-papers",
-        "years":"2021-2022"
-      },
       {
         "title":"Membrane Protein Domains Motifs Annotations Database",
         "category":"My Travel Blog for my post-university travels",
