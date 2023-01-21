@@ -65,9 +65,15 @@ class Resume extends Component {
       const width = skills.level;
 
       return (
-        <li key={skills.name}>
+        <li className="myDIV" key={skills.name}>
           <span style={{ width, backgroundColor }} className={className}></span>
-          <em>{skills.name}</em>
+          <em> {skills.name}</em>
+          <span className="hide">
+          skills.frameworks
+          </span>
+
+
+          <span className="hide"> {skills.frameworks}  </span>
         </li>
       );
     });

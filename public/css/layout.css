@@ -321,6 +321,17 @@ ul#nav li.current a { color: #fe6928; }
    line-height: 42px;
    border-radius: 0px;
 }
+.hide {
+  display: none;
+  font-size: 10px;
+}
+    
+.myDIV:hover .hide {
+   margin-top: 2px;
+  display: block;
+  color: #330b8f; 
+s}
+
 /*
 .git {
   	-moz-animation: git 2s ease;
