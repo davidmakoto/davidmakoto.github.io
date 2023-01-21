@@ -77,27 +77,38 @@
     "skills":[
       {
         "name":"Python",
+        "frameworks": "NumPy, Pandas",
         "level":"80%"
       },
       {
-        "name":"Ruby on Rails",
+        "name":"Ruby",
+        "frameworks": "Rails, ActiveRecord, Stimulus.js/Hotwire",
         "level":"65%"
       },
       {
         "name":"Javascript",
+        "frameworks": "Angular, React.js, Node.js, Stimulus.js, ",
         "level":"65%"
       },
       {
         "name":"C++",
+        "frameworks": "CUDA",
         "level":"60%"
       },
       {
         "name":"Java",
+        "frameworks": "",
         "level":"55%"
       },
       {
         "name":"C#",
+        "frameworks": ".NET Core",
         "level":"40%"
+      },
+      {
+        "name": "DevOps",
+        "frameworks": "Docker, Git, GitHub, Heroku, AWS, Apache, MariaSQL, PostgreSQL, Linux (arch, ubuntu, centos) ",
+        "level": "35%"
       }
     ]
   },
