@@ -87,7 +87,7 @@
       },
       {
         "name":"Javascript",
-        "frameworks": "Angular, React.js, Node.js, Stimulus.js, ",
+        "frameworks": "Angular, React.js, Node.js, Stimulus.js, D3.js ",
         "level":"65%"
       },
       {
@@ -107,7 +107,7 @@
       },
       {
         "name": "DevOps",
-        "frameworks": "Docker, Git, GitHub, Heroku, AWS, Apache, MariaSQL, PostgreSQL, Linux (arch, ubuntu, centos) ",
+        "frameworks": "Docker, Git, GitHub, Heroku, AWS, Apache, MariaSQL, PostgreSQL, Linux (Manjaro/Arch, Ubuntu, Centos) ",
         "level": "35%"
       }
     ]
@@ -161,9 +161,6 @@
       }
     ]
   },
-
-
-  
   "card":{
     "projects": [
       {
@@ -172,7 +169,6 @@
         "image":"gpcr4.jpg",
         "url":"https://github.com/davidmakoto/pandos-dotnet"
       }
-      
     ]
   }
 
