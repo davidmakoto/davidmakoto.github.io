@@ -35,7 +35,7 @@ Checkout the [the live website](https://davidmakoto.github.io/) or if you'd like
 ```shell
 git clone https://github.com/davidmakoto/davidmakoto.github.io
 ```
-### 2. Install dependancies (node version manager and 
+### 2. Install dependancies (node version manager) 
 ```shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash 
 ```
