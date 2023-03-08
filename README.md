@@ -3,6 +3,9 @@
 
 <br> <br>
  
+## Video tutorial I created outlining how to deploy this project for free on Netlify
+https://www.youtube.com/watch?v=IdknffAVnkM&t=14s&ab_channel=DavidWard
+
 ## Contributions to this project
  The origional website was built by [nordicgiant2](https://github.com/nordicgiant2), however I built a couple components to emphasis different areas:
  
