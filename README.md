@@ -1,10 +1,12 @@
 # Digital portfolio
-## Welcome to my portfolio. Please checkout the demo link to view the live website: [DEMO](https://davidmakoto.github.io/)
+#### Welcome to my portfolio! <br>
+Checkout the [the live website](https://davidmakoto.github.io/) or if you'd like to quickly setup your own portfolio checkout the 
+[video tutorial I made that outlines all of the steps from start to finish](https://www.youtube.com/watch?v=IdknffAVnkM&t=14s&ab_channel=DavidWard).
 
-<br> <br>
- 
-## Video tutorial I created outlining how to deploy this project for free on Netlify
-https://www.youtube.com/watch?v=IdknffAVnkM&t=14s&ab_channel=DavidWard
+
+<img width="840" alt="Screen Shot 2023-03-07 at 6 10 22 PM" src="https://user-images.githubusercontent.com/20344260/223601420-88df6fc1-0adc-485c-8ae7-23d539c56f67.png">
+
+<br><br>
 
 ## Contributions to this project
  The origional website was built by [nordicgiant2](https://github.com/nordicgiant2), however I built a couple components to emphasis different areas:
@@ -30,16 +32,28 @@ https://www.youtube.com/watch?v=IdknffAVnkM&t=14s&ab_channel=DavidWard
 
 # Run Project
 ### 1. Clone the project
+```shell
+git clone https://github.com/davidmakoto/davidmakoto.github.io
+```
+### 2. Install dependancies (node version manager and 
+```shell
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash 
+```
+restart shell
+```shell
+nvm install 15 && nvm use 15
+```
 
-### 2. Run the project
+### 3. Run the project
 ```shell
 npm i
 npm start
 ```
 
-### 3. Build
+### 4. Build
 ```shell
 npm run build
 ```
 
+For more specific instructions on how to get started with your own portfolio landing page, please either refer to the [parent project](https://github.com/nordicgiant2/react-nice-resume/) or watch the tutorial I made on setting this app up from start to finish using GitHub codespaces and Netlify.
 
