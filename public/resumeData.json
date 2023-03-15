@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"David Ward",
-    "description":"Software engineer with experience in fullstack development and data analysis",
+    "description":"Software developer with experience in fullstack development and data analysis",
     "image":"profilepic-cropped.png",
     "bio":" I believe technology powers the modern world, and that makes contributing to it infinitely exciting. During my freetime, you can find me eating around LA with friends or playing with raspberry pis and microcontrollers in attempts to automate daily chores.",
     "contactmessage":"Please reach out to me through LinkedIn or email me at DavidMacotoWard@gmail.com.",
@@ -53,25 +53,28 @@
     ],
     "research":[
       {
-        "company":"IEEE Conference Publication",
+        "company":"IEEE ICMLA 2022 Conference Publication",
         "title":"Data analyst, web developer, project manager, major contributing writer",
         "years":"2022",
-        "description":"Senior group research project predicted wildfires in California with 93% accuracy using machine learning and raw image data. Accepted for publication in 2022 international IEEE machine learning and applications conference short paper.",
-        "funding": "N/A"
+        "description":"Senior group research project predicted wildfires in California using machine learning and raw geospatial data with 93% accuracy. Published in international conference on machine learning and applications conference short paper. The paper can be viewed using the link below using the credentials username: 'icmlapub22' password: 'conf22//' or please reach out for a copy.",
+        "funding": "N/A",
+        "link": "https://conferences.computer.org/icmlapub"
       },
       {
         "company":"CSUN Research Lab",
         "title":"Student researcher",
         "years":"June 2021 - August 2021",
         "description":"Researched data center energy consumption via simulations. Included poster and symposium presentation.",
-        "funding": "CSUN LSAMP"
+        "funding": "CSUN LSAMP",
+        "link": ""
       },
       {
         "company":"UCLA",
         "title":"Summer intern",
         "years":"June 2016 - August 2016",
         "description":"Analyzed medical instrumentation data, learned about the research process, and participated in poster and symposium presentations.",
-        "funding": "SMC/UCLA Science Research Initative"
+        "funding": "SMC/UCLA Science Research Initative",
+        "link": ""
       }
     ],
     "skills":[
