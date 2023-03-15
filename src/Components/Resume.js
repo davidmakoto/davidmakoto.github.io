@@ -51,8 +51,9 @@ class Resume extends Component {
             <span>&bull;</span> <em className="date">{research.years}</em>
           </p>
           <p>{research.description}</p>
+          <a href={research.link}> {research.link} </a>
           <p className="funding">
-            Funding: 
+            Funding:
             <div className="funder">{research.funding}</div>
           </p>
         </div>
