@@ -33,14 +33,14 @@ class Portfolio extends Component {
             <div style={{ textAlign: "center" }}>
               <h2><a href={projects.url}>{projects.title}</a></h2>
               <div className="languages">
-                <p className="project-languages">{projects.languages} </p> 
+                <p className="project-languages">{projects.languages} </p>
               </div>
               <div className="years">
-                <p>{projects.years} </p> 
+                <p>{projects.years} </p>
               </div>
               <b className="project-description">
-                {projects.description} 
-              </b> 
+                {projects.description}
+              </b>
             </div>
             <ul className="social">
               <a href={projects.url} className="button btn github-btn">
@@ -53,7 +53,7 @@ class Portfolio extends Component {
     });
 
     return (
-    <section id="portfolio"> 
+    <section id="portfolio">
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
