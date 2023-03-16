@@ -53,12 +53,13 @@
     ],
     "research":[
       {
-        "company":"IEEE ICMLA 2022 Conference Publication",
+        "company":"IEEE ICMLA 2022 Conference Short Paper",
         "title":"Data analyst, web developer, project manager, major contributing writer",
         "years":"2022",
-        "description":"Senior group research project predicted wildfires in California using machine learning and raw geospatial data with 93% accuracy. Published in international conference on machine learning and applications conference short paper. The paper can be viewed using the link below using the credentials username: 'icmlapub22' password: 'conf22//' or please reach out for a copy.",
+        "description":"Senior group research project predicted wildfires in California using machine learning and raw geospatial data with 93% accuracy.",
         "funding": "N/A",
-        "link": "https://conferences.computer.org/icmlapub"
+        "paperDownload": "/../images/portfolio/California Wildfire Prediction using Machine Learning Accepted.pdf"
+
       },
       {
         "company":"CSUN Research Lab",
@@ -100,7 +101,7 @@
       },
       {
         "name":"Java",
-        "frameworks": "",
+        "frameworks": "JavaFX Scene Builder",
         "level":"55%"
       },
       {
