@@ -4,7 +4,7 @@
     "description":"Software developer with experience in fullstack development and data analysis",
     "image":"profilepic-cropped.png",
     "bio":" I believe technology powers the modern world, and that makes contributing to it infinitely exciting. During my freetime, you can find me eating around LA with friends or playing with raspberry pis and microcontrollers in attempts to automate daily chores.",
-    "contactmessage":"Please reach out to me through LinkedIn or email me at DavidMacotoWard@gmail.com.",
+    "contactmessage":"Please reach out to me through LinkedIn (in/DavidMacotoWard) or email me at DavidMacotoWard@gmail.com.",
     "email": "DavidMacotoWard@gmail.com",
     "github":"https://github.com/davidmakoto",
     "address":{
@@ -81,7 +81,7 @@
     "skills":[
       {
         "name":"Python",
-        "frameworks": "NumPy, Pandas",
+        "frameworks": "NumPy, Pandas, PyCUDA, Matplotlib, GDAL, Rasterio, Fiona, GeoPandas, SciPy ",
         "level":"80%"
       },
       {
@@ -91,12 +91,12 @@
       },
       {
         "name":"Javascript",
-        "frameworks": "Angular, React.js, Node.js, Stimulus.js, D3.js, Material Design ",
+        "frameworks": "Angular, React, Node.js, Stimulus.js, D3.js, Material Design",
         "level":"65%"
       },
       {
         "name":"C++",
-        "frameworks": "CUDA",
+        "frameworks": "CUDA, Arduino",
         "level":"60%"
       },
       {
