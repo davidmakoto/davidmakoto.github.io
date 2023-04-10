@@ -1,9 +1,9 @@
 {
   "main": {
     "name":"David Ward",
-    "description":"Software developer with experience in fullstack development and data analysis",
+    "description":"Full stack software developer, IEEE published author, and driven self starter",
     "image":"profilepic-cropped.png",
-    "bio":" I believe technology powers the modern world, and that makes contributing to it infinitely exciting. During my freetime, you can find me eating around LA with friends or playing with raspberry pis and microcontrollers in attempts to automate daily chores.",
+    "bio":" I believe technology powers the modern world, and that makes contributing to it infinitely exciting. During my free time I like to eat at restaurants around LA with friends, play Elden Ring or Warcraft 3, or mess around with raspberry pis and microcontrollers in attempts to automate daily chores.",
     "contactmessage":"Please reach out to me through LinkedIn or email me at DavidMacotoWard@gmail.com.",
     "email": "DavidMacotoWard@gmail.com",
     "github":"https://github.com/davidmakoto",
@@ -13,7 +13,7 @@
       "zip": "90034"
     },
     "website": "http://www.davidmakoto.github.io",
-    "resumedownload":"../images/David_Ward_resume.pdf",
+    "resumedownload":"../images/David-Ward-resume.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -28,7 +28,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Specalties: Full stack with Ruby on Rails Framework and data analysis using Python.",
+    "skillmessage":"Specalties: Full stack with Ruby on Rails Framework, data analysis using Python, and technical writing.",
     "education":[
       {
         "school":"California State University, Northridge",
@@ -121,11 +121,11 @@
       {
         "title":"Social Media Clone",
         "category":"",
-        "description": "Simple fullstack MVC app showcasing modern design principles.",
+        "description": "Simple fullstack monolithic MVC app showcasing modern design principles such as: cloud hosting, CI/CD, unit testing, functional testing, and user authentication.",
         "languages":"Ruby on Rails, HTML/CSS, PostgreSQL, Heroku",
         "image":"tweetir-auth.gif",
         "url":"https://github.com/davidmakoto/social-media-backend-clone",
-        "years":"2021-2022"
+        "years":"2023"
       },
       {
         "title":"Membrane Protein Domains Motifs Annotations Database",
@@ -152,15 +152,6 @@
         "languages":"Python, GDAL, NumPy, Pandas",
         "image":"CA-interactive-fire-incidents-map.png",
         "url":"https://github.com/KayleePham/Beat-the-Heat--Machine-Learning",
-        "years":"2020-2021"
-      },
-      {
-        "title":"Showcase Website for ML Wildfire Prediction",
-        "category":"",
-        "description": "Website describing senior project with interactive map of past fires",
-        "languages":"D3.js,   Javascript, html, css",
-        "image":"forrest-fire.jpg",
-        "url":"https://github.com/KayleePham/Beat-the-Heat--Machine-Learning/tree/master/Senior-Design-Website-Template",
         "years":"2020-2021"
       }
     ]
