@@ -3,7 +3,7 @@
     "name":"David Ward",
     "description":"Software developer with experience in fullstack development and data analysis",
     "image":"profilepic-cropped.png",
-    "bio":" I believe technology powers the modern world, and that makes contributing to it infinitely exciting. During my freetime, you can find me eating around LA with friends or playing with raspberry pis and microcontrollers in attempts to automate daily chores.",
+    "bio":" I love technology because there's practically no limit on what helpful tools you can create, besides one's patience! Luckily, I love learning about complex systems and troubleshooting them. During my free time, I'm either eating at my favorite restaurants in Los Angeles or trying to figure out how to automate my blinds with microcontrollers.",
     "contactmessage":"Please reach out to me through LinkedIn (in/DavidMacotoWard) or email me at DavidMacotoWard@gmail.com.",
     "email": "DavidMacotoWard@gmail.com",
     "github":"https://github.com/davidmakoto",
@@ -42,7 +42,7 @@
         "company":"Layers Media",
         "title":"Full stack web developer",
         "years":"July 2022 - December 2022",
-        "description":"Added features and debugged issues on social media web app for an early stage startup. Used Ruby on Rails, PostgreSQL, ActiveRecord, and Stimulus.js/Hotwire."
+        "description":"Sole web developer for monolithic social media app, working directly under CEO and CTO. Enabled quick public launch of small startup by shipping 27 bug and features updates, independently, across entire web app. Used Ruby on Rails, PostgreSQL, ActiveRecord, Stimulus.js/Hotwire, and AWS."
       },
       {
         "company":"STEM Tutoring Lab",
@@ -100,14 +100,14 @@
         "level":"60%"
       },
       {
-        "name":"Java",
-        "frameworks": "JavaFX Scene Builder",
-        "level":"55%"
+        "name":"C#",
+        "frameworks": ".NET Core, Entity Framework",
+        "level":"60%"
       },
       {
-        "name":"C#",
-        "frameworks": ".NET Core",
-        "level":"40%"
+        "name":"Java",
+        "frameworks": "JavaFX Scene Builder",
+        "level":"45%"
       },
       {
         "name": "DevOps",
@@ -153,27 +153,47 @@
         "image":"CA-interactive-fire-incidents-map.png",
         "url":"https://github.com/KayleePham/Beat-the-Heat--Machine-Learning",
         "years":"2020-2021"
-      },
-      {
-        "title":"Showcase Website for ML Wildfire Prediction",
-        "category":"",
-        "description": "Website describing senior project with interactive map of past fires",
-        "languages":"D3.js,   Javascript, html, css",
-        "image":"forrest-fire.jpg",
-        "url":"https://github.com/KayleePham/Beat-the-Heat--Machine-Learning/tree/master/Senior-Design-Website-Template",
-        "years":"2020-2021"
       }
     ]
   },
-  "card":{
+  "awards":{
     "projects": [
       {
-        "title":"Protein Domain Annotations Database",
+        "title":"Social Media Clone",
+        "category":"",
+        "description": "Simple fullstack MVC app showcasing modern design principles.",
+        "languages":"Ruby on Rails, HTML/CSS, PostgreSQL, Heroku",
+        "image":"tweetir-auth.gif",
+        "url":"https://github.com/davidmakoto/social-media-backend-clone",
+        "years":"2021-2022"
+      },
+      {
+        "title":"Membrane Protein Domains Motifs Annotations Database",
         "category":"My Travel Blog for my post-university travels",
-        "image":"gpcr4.jpg",
-        "url":"https://github.com/davidmakoto/pandos-dotnet"
+        "description": "Fullstack SPA containing novel protein domain data using the .NET entity framework for the backend and Angular for the frontend deployed on Apache server.",
+        "languages":"C#, Angular.js, MariaSQL, Apache",
+        "image":"Pandos_github_banner.png",
+        "url":"https://github.com/davidmakoto/pandos-dotnet",
+        "years":"2021-2022"
+      },
+      {
+        "title":"GPU Enabled \"SuperBihelix\" Protein Conformational Sampling",
+        "description": "Created boilerplate code to organize GPCR protein information and enable parallel execution of structural bioinformatics simulation.",
+        "languages":"Python, CUDA C/C++",
+        "image":"bihelix-movie.gif",
+        "url":"https://github.com/davidmakoto/SuperBihelix-GPU-public",
+        "years":"2020-2022"
+
+      },
+      {
+        "title":"Wildfire Prediction using ML on raw sattelite data",
+        "category":"?",
+        "description": "Senior Group Project: Used ML to analyize raw sattelite images to detect patterns related to fire conditions in California",
+        "languages":"Python, GDAL, NumPy, Pandas",
+        "image":"CA-interactive-fire-incidents-map.png",
+        "url":"https://github.com/KayleePham/Beat-the-Heat--Machine-Learning",
+        "years":"2020-2021"
       }
     ]
   }
-
 }
