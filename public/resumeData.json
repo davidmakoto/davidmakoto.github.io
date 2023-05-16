@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"David Ward",
-    "description":"Software developer with experience in fullstack development and data analysis",
+    "description":"Full stack software developer, IEEE published author, and driven self starter",
     "image":"profilepic-cropped.png",
     "bio":" I love technology because there's practically no limit on what helpful tools you can create, besides one's patience! Luckily, I love learning about complex systems and troubleshooting them. During my free time, I'm either eating at my favorite restaurants in Los Angeles or trying to figure out how to automate my blinds with microcontrollers.",
     "contactmessage":"Please reach out to me through LinkedIn (in/DavidMacotoWard) or email me at DavidMacotoWard@gmail.com.",
@@ -13,7 +13,7 @@
       "zip": "90034"
     },
     "website": "http://www.davidmakoto.github.io",
-    "resumedownload":"../images/David_Ward_resume.pdf",
+    "resumedownload":"../images/David-Ward-resume.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -28,7 +28,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Specalties: Full stack with Ruby on Rails Framework and data analysis using Python.",
+    "skillmessage":"Specalties: Full stack with Ruby on Rails Framework, data analysis using Python, and technical writing.",
     "education":[
       {
         "school":"California State University, Northridge",
@@ -121,11 +121,11 @@
       {
         "title":"Social Media Clone",
         "category":"",
-        "description": "Simple fullstack MVC app showcasing modern design principles.",
+        "description": "Simple fullstack monolithic MVC app showcasing modern design principles such as: cloud hosting, CI/CD, unit testing, functional testing, and user authentication.",
         "languages":"Ruby on Rails, HTML/CSS, PostgreSQL, Heroku",
         "image":"tweetir-auth.gif",
         "url":"https://github.com/davidmakoto/social-media-backend-clone",
-        "years":"2021-2022"
+        "years":"2023"
       },
       {
         "title":"Membrane Protein Domains Motifs Annotations Database",
@@ -152,6 +152,55 @@
         "languages":"Python, GDAL, NumPy, Pandas",
         "image":"CA-interactive-fire-incidents-map.png",
         "url":"https://github.com/KayleePham/Beat-the-Heat--Machine-Learning",
+        "years":"2020-2021"
+      }
+    ]
+  },
+  "awards":{
+    "projects": [
+      {
+        "title":"Social Media Clone",
+        "category":"",
+        "description": "Simple fullstack monolithic MVC app showcasing modern design principles such as: cloud hosting, CI/CD, unit testing, functional testing, and user authentication.",
+        "languages":"Ruby on Rails, HTML/CSS, PostgreSQL, Heroku",
+        "image":"tweetir-auth.gif",
+        "url":"https://github.com/davidmakoto/social-media-backend-clone",
+        "years":"2023"
+      },
+      {
+        "title":"Membrane Protein Domains Motifs Annotations Database",
+        "category":"My Travel Blog for my post-university travels",
+        "description": "Fullstack SPA containing novel protein domain data using the .NET entity framework for the backend and Angular for the frontend deployed on Apache server.",
+        "languages":"C#, Angular.js, MariaSQL, Apache",
+        "image":"Pandos_github_banner.png",
+        "url":"https://github.com/davidmakoto/pandos-dotnet",
+        "years":"2021-2022"
+      },
+      {
+        "title":"GPU Enabled \"SuperBihelix\" Protein Conformational Sampling",
+        "description": "Created boilerplate code to organize GPCR protein information and enable parallel execution of structural bioinformatics simulation.",
+        "languages":"Python, CUDA C/C++",
+        "image":"bihelix-movie.gif",
+        "url":"https://github.com/davidmakoto/SuperBihelix-GPU-public",
+        "years":"2020-2022"
+
+      },
+      {
+        "title":"Wildfire Prediction using ML on raw sattelite data",
+        "category":"?",
+        "description": "Senior Group Project: Used ML to analyize raw sattelite images to detect patterns related to fire conditions in California",
+        "languages":"Python, GDAL, NumPy, Pandas",
+        "image":"CA-interactive-fire-incidents-map.png",
+        "url":"https://github.com/KayleePham/Beat-the-Heat--Machine-Learning",
+        "years":"2020-2021"
+      },
+      {
+        "title":"Showcase Website for ML Wildfire Prediction",
+        "category":"",
+        "description": "Website describing senior project with interactive map of past fires",
+        "languages":"D3.js,   Javascript, html, css",
+        "image":"forrest-fire.jpg",
+        "url":"https://github.com/KayleePham/Beat-the-Heat--Machine-Learning/tree/master/Senior-Design-Website-Template",
         "years":"2020-2021"
       }
     ]
