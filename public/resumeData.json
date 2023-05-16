@@ -34,7 +34,7 @@
         "school":"California State University, Northridge",
         "degree":"B.S. in Computer Science",
         "graduated":"December 2021",
-        "description":" College taught me how to learn and gave me many invaluable mentors."
+        "description":"Spear headed structural bioinformatics and paid computational research projects during senior year, participated in two hackathons, won 2019 AI Jam (team), and was the project manager, web developer, data preprocessing engineer, and primary author of senior design research paper, which was later published in the 2022 IEEE ICMLA Conference proceeding. "
       }
     ],
     "work":[
@@ -42,13 +42,13 @@
         "company":"Layers Media",
         "title":"Full stack web developer",
         "years":"July 2022 - December 2022",
-        "description":"Sole web developer for monolithic social media app, working directly under CEO and CTO. Enabled quick public launch of small startup by shipping 27 bug and features updates, independently, across entire web app. Used Ruby on Rails, PostgreSQL, ActiveRecord, Stimulus.js/Hotwire, and AWS."
+        "description":"Sole web developer for monolithic social media app. Enabled quick public launch of small startup by independently shipping 27 bug and features updates with automated branch testing (66 unit and 131 integration tests). Used Ruby on Rails, Stimulus.js/Hotwire, PostgreSQL, ActiveRecord, and AWS."
       },
       {
-        "company":"STEM Tutoring Lab",
-        "title":"Tutor",
-        "years":"January 2017 - June 2018",
-        "description":"Tutored many lower division math, chemistry, and computer science courses."
+        "company":"CSUN Bioinformatics Lab",
+        "title":"Full Stack Web Developer",
+        "years":"January 202022 - April 2022",
+        "description":"Created Novel research analysis web app that conglomerates and standardizes protein domain data from multiple sources. Used C#, .NET Core, Entity Framework, Angular.ts, MariaSQL, and Apache server."
       }
     ],
     "research":[
@@ -86,12 +86,12 @@
       },
       {
         "name":"Ruby",
-        "frameworks": "Rails, ActiveRecord, Stimulus.js/Hotwire",
+        "frameworks": "Rails, Rspec, Shoulda, Devise, ActiveRecord, Stimulus.js/Hotwire",
         "level":"65%"
       },
       {
         "name":"Javascript",
-        "frameworks": "Angular, React, Node.js, Stimulus.js, D3.js, Material Design",
+        "frameworks": "Angular, React, Next.js, Node.js, Stimulus.js, D3.js, Material Design",
         "level":"65%"
       },
       {
@@ -198,7 +198,7 @@
         "title":"Showcase Website for ML Wildfire Prediction",
         "category":"",
         "description": "Website describing senior project with interactive map of past fires",
-        "languages":"D3.js,   Javascript, html, css",
+        "languages":"D3.js, Javascript, html, css",
         "image":"forrest-fire.jpg",
         "url":"https://github.com/KayleePham/Beat-the-Heat--Machine-Learning/tree/master/Senior-Design-Website-Template",
         "years":"2020-2021"
