@@ -28,7 +28,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Specalties: Full stack (C#, Javascript, Ruby on Rails), Dev Ops (Heroku, GitHub actions, CI), data analysis using Python, and technical writing.",
+    "skillmessage":"Specialties: Full stack (C#, Javascript, Ruby on Rails), Dev Ops (Docker compose, Heroku, GitHub actions, CI), data analysis using Python(Numpy, Pandas, PyCUDA), and technical writing (2022 IEEE Publication, GitHub doocumentation).",
     "education":[
       {
         "school":"California State University, Northridge",
@@ -115,19 +115,19 @@
         "level":"65%"
       },
       {
+        "name": "DevOps",
+        "frameworks": "Docker, Git, GitHub, Heroku, AWS, Apache, MariaSQL, PostgreSQL, Linux (Manjaro/Arch, Ubuntu, Centos) ",
+        "level": "55%"
+      },
+      {
         "name":"C++",
         "frameworks": "CUDA, Arduino",
-        "level":"60%"
+        "level":"50%"
       },
       {
         "name":"Java",
         "frameworks": "JavaFX Scene Builder",
         "level":"45%"
-      },
-      {
-        "name": "DevOps",
-        "frameworks": "Docker, Git, GitHub, Heroku, AWS, Apache, MariaSQL, PostgreSQL, Linux (Manjaro/Arch, Ubuntu, Centos) ",
-        "level": "35%"
       }
     ]
   },
