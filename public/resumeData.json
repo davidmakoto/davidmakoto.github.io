@@ -64,7 +64,8 @@
         "years":"2022",
         "description":"Senior group research project predicted wildfires in California using machine learning and raw geospatial data with 93% accuracy.",
         "funding": "N/A",
-        "paperDownload": "/../images/portfolio/California Wildfire Prediction using Machine Learning Accepted.pdf"
+        "paperDownload": "/../images/portfolio/California Wildfire Prediction using Machine Learning Accepted.pdf",
+        "link": "https://ieeexplore.ieee.org/document/10069219"
 
       },
       {
