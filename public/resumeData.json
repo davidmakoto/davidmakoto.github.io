@@ -1,16 +1,16 @@
 {
   "main": {
     "name":"David Ward",
-    "description":"Full stack software developer, IEEE published author, and driven self starter",
+    "description":"Full stack software developer and IEEE published author",
     "image":"profilepic-cropped.png",
-    "bio":" I like building tools and learning about complex systems. During my free time, I'm either eating at my favorite restaurants in Los Angeles or trying to learn modern frameworks.",
+    "bio":" I like building tools and learning about complex systems. During my free time, I'm either eating at my favorite restaurants or trying to learn something new.",
     "contactmessage":"Please reach out to me through LinkedIn (in/DavidMacotoWard) or email me at DavidMacotoWard@gmail.com.",
     "email": "DavidMacotoWard@gmail.com",
     "github":"https://github.com/davidmakoto",
     "address":{
       "city":"Los Angeles",
       "state":"California",
-      "zip": "90034"
+      "zip": ""
     },
     "website": "http://www.davidmakoto.github.io",
     "resumedownload":"../images/David_Ward_Resume.pdf",
@@ -28,7 +28,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Specalties: Full stack (C#, Javascript, Ruby on Rails), Dev Ops (Heroku,  data analysis using Python, and technical writing.",
+    "skillmessage":"Specalties: Full stack (C#, Javascript, Ruby on Rails), Dev Ops (Heroku, data analysis using Python, and technical writing.",
     "education":[
       {
         "school":"California State University, Northridge",
@@ -68,7 +68,15 @@
 
       },
       {
-        "company":"CSUN Research Lab",
+        "company":"CSUN Dr. Abrol Lab",
+        "title":"Student researcher",
+        "years":"September 2020 - December 2021",
+        "description":"Developed boilerplate applicaiton to organize GPCR protein information and enable parallel execution of existing, pattented structural bioinformatics simulation, SupberBiHelix.",
+        "funding": "N/A",
+        "link": "https://github.com/davidmakoto/SuperBihelix-GPU-public"
+      },
+      {
+        "company":"CSUN Dr. Jiang Lab",
         "title":"Student researcher",
         "years":"June 2021 - August 2021",
         "description":"Researched data center energy consumption via simulations. Included poster and symposium presentation.",
@@ -76,7 +84,7 @@
         "link": ""
       },
       {
-        "company":"UCLA",
+        "company":"UCLA Dr. Staffsudd Lab",
         "title":"Summer intern",
         "years":"June 2016 - August 2016",
         "description":"Analyzed medical instrumentation data, learned about the research process, and participated in poster and symposium presentations.",
@@ -91,6 +99,11 @@
         "level":"80%"
       },
       {
+        "name":"C#",
+        "frameworks": ".NET Core, Entity Framework",
+        "level":"70%"
+      },
+      {
         "name":"Ruby",
         "frameworks": "Rails, Rspec, Shoulda, Devise, ActiveRecord, Stimulus.js/Hotwire",
         "level":"65%"
@@ -103,11 +116,6 @@
       {
         "name":"C++",
         "frameworks": "CUDA, Arduino",
-        "level":"60%"
-      },
-      {
-        "name":"C#",
-        "frameworks": ".NET Core, Entity Framework",
         "level":"60%"
       },
       {
