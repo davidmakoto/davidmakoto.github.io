@@ -28,39 +28,39 @@
     ]
   },
   "resume":{
-    "skillmessage":"Specialties: Full stack (C#, Javascript, Ruby on Rails), Dev Ops (Docker compose, Heroku, GitHub actions, CI), data analysis using Python(Numpy, Pandas, PyCUDA), and technical writing (2022 IEEE Publication, GitHub doocumentation).",
+    "skillmessage":"Specialties: Full stack (C#, Javascript, Ruby on Rails), Dev Ops (Docker compose, Heroku, GitHub actions, CI), data analysis using Python (Numpy, Pandas, PyCUDA), and technical writing (2022 IEEE Publication, GitHub doocumentation).",
     "education":[
       {
         "school":"California State University, Northridge",
         "degree":"B.S. in Computer Science",
         "graduated":"December 2021",
-        "description":"Spear headed structural bioinformatics and paid computational research projects during senior year, participated in two hackathons, won 2019 AI Jam (team), and was the project manager, web developer, data preprocessing engineer, and primary author of senior design research paper, which was later published in the 2022 IEEE ICMLA Conference proceeding. "
+        "description":"Conducted structural bioinformatics and data center workload balancing research, won acceptance paid incubator program via 2019 AI Jam, and played central role in senior design data engineering project which was published in 2022 IEEE conference on machine learning and applications. "
       }
     ],
     "work":[
       {
         "company":"Houlihan Lokey",
         "title":"Software developer",
-        "years":"June 2023 - Present",
+        "years":"2023 - Present",
         "description":"Custom applications developer automating tasks related to investment banking deal communications. Using C#, .NET Core, Angular. T-SQL, and Azure Dev Ops."
       },
       {
         "company":"Layers Media",
         "title":"Full stack web developer",
-        "years":"July 2022 - December 2022",
+        "years":"2022",
         "description":"Sole web developer for monolithic social media app. Used Ruby on Rails, Stimulus.js/Hotwire, PostgreSQL, ActiveRecord, and AWS."
       },
       {
         "company":"CSUN Bioinformatics Lab (Volunteer)",
         "title":"Full Stack Web Developer",
-        "years":"January 2022 - April 2022",
+        "years":"2022",
         "description":"Joint project with structural bioinformatics professor (Dr. Abrol), creating novel research analysis web app that conglomerates and standardizes protein domain data from multiple sources. Used C#, .NET Core, Entity Framework, Angular.ts, MariaSQL, and Apache server."
       }
     ],
     "research":[
       {
         "company":"IEEE ICMLA 2022 Conference Short Paper",
-        "title":"Data analyst, web developer, project manager, major contributing writer",
+        "title":"Data engineer, web developer, project manager, major contributing writer",
         "years":"2022",
         "description":"Senior group research project predicted wildfires in California using machine learning and raw geospatial data with 93% accuracy.",
         "funding": "N/A",
