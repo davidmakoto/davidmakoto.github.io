@@ -3,7 +3,7 @@
     "name":"David Ward",
     "description":"Full stack software developer and IEEE published author",
     "image":"profilepic-cropped.png",
-    "bio":" I like building tools and learning about complex systems. During my free time, I'm either eating at my favorite restaurants, working on a project, or trying to learn something new.",
+    "bio":" I like building tools and learning about complex systems. During my free time, I'm either eating at my favorite restaurants, working on a new project, or trying to learn more about machine learning theory and tooling.",
     "contactmessage":"Please reach out to me through LinkedIn (in/DavidMacotoWard) or email me at DavidMacotoWard@gmail.com.",
     "email": "DavidMacotoWard@gmail.com",
     "github":"https://github.com/davidmakoto",
@@ -28,7 +28,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Specialties: Full stack (C#, Javascript, Ruby on Rails), Dev Ops (Docker compose, Heroku, GitHub actions, CI), data analysis using Python (Numpy, Pandas, PyCUDA), and technical writing (2022 IEEE Publication, GitHub doocumentation).",
+    "skillmessage":"Specialties: Full stack (C#, Javascript, Ruby on Rails), Dev Ops (Azure Dev Ops, Docker compose, Heroku, GitHub actions, CI, yaml), data analysis using Python (Numpy, Pandas, PyCUDA), and technical writing (2022 IEEE Publication, GitHub doocumentation).",
     "education":[
       {
         "school":"California State University, Northridge",
@@ -39,22 +39,22 @@
     ],
     "work":[
       {
+        "company":"CompTIA",
+        "title":"Senior Specialist, Web Developer",
+        "years":"2024 - 2025",
+        "description":"Developer leading SSO integrations between main site and 3rd party vendors: Pearson and Canvas. Used C#, .NET Core, React. Cosmo-DB, T-SQL, and Azure Dev Ops."
+      },
+      {
         "company":"Houlihan Lokey",
-        "title":"Software developer",
-        "years":"2023 - Present",
-        "description":"Custom applications developer automating tasks related to investment banking deal communications. Using C#, .NET Core, Angular. T-SQL, and Azure Dev Ops."
+        "title":"Software developer contactor",
+        "years":"2023 - 2024",
+        "description":"Custom applications developer automating tasks related to investment banking deal communications. Used C#, .NET Core, Angular. T-SQL, and Azure Dev Ops."
       },
       {
         "company":"Layers Media",
         "title":"Full stack web developer",
         "years":"2022",
         "description":"Sole web developer for monolithic social media app. Used Ruby on Rails, Stimulus.js/Hotwire, PostgreSQL, ActiveRecord, and AWS."
-      },
-      {
-        "company":"CSUN Bioinformatics Lab (Volunteer)",
-        "title":"Full Stack Web Developer",
-        "years":"2022",
-        "description":"Joint project with structural bioinformatics professor (Dr. Abrol), creating novel research analysis web app that conglomerates and standardizes protein domain data from multiple sources. Used C#, .NET Core, Entity Framework, Angular.ts, MariaSQL, and Apache server."
       }
     ],
     "research":[
@@ -68,10 +68,19 @@
         "link": "https://ieeexplore.ieee.org/document/10069219"
 
       },
+            {
+        "company":"CSUN Dr. Abrol Structural Bioinformatics Lab",
+        "title":"Full Stack Web Developer",
+        "years":"2022 Jan - 2022 May",
+        "description":"Joint project with structural bioinformatics professor (Dr. Abrol), creating novel research analysis web app that conglomerates and standardizes protein domain data from multiple sources. Used C#, .NET Core, Entity Framework, Angular.ts, MariaSQL, and Apache server.",
+        "funding": "N/A",
+        "link": "https://github.com/davidmakoto/pandos"
+
+      },
       {
-        "company":"CSUN Dr. Abrol Lab",
+        "company":"CSUN Dr. Abrol Structural Bioinformatics Lab",
         "title":"Student researcher",
-        "years":"September 2020 - December 2021",
+        "years": "2020 Sept - 2021 Dec",
         "description":"Developed boilerplate applicaiton to organize GPCR protein information and enable parallel execution of existing, pattented structural bioinformatics simulation, SupberBiHelix.",
         "funding": "N/A",
         "link": "https://github.com/davidmakoto/SuperBihelix-GPU-public"
@@ -79,7 +88,7 @@
       {
         "company":"CSUN Dr. Jiang Lab",
         "title":"Student researcher",
-        "years":"June 2021 - August 2021",
+        "years":"2021 Jun - 2021 Aug",
         "description":"Researched data center energy consumption via simulations. Included poster and symposium presentation.",
         "funding": "CSUN LSAMP",
         "link": ""
@@ -87,37 +96,37 @@
       {
         "company":"UCLA Dr. Staffsudd Lab",
         "title":"Summer intern",
-        "years":"June 2016 - August 2016",
+        "years":"2016 Jun - 2016 Aug",
         "description":"Analyzed medical instrumentation data, learned about the research process, and participated in poster and symposium presentations.",
         "funding": "SMC/UCLA Science Research Initative",
         "link": ""
       }
     ],
     "skills":[
-      {
-        "name":"Python",
-        "frameworks": "NumPy, Pandas, PyCUDA, Matplotlib, GDAL, Rasterio, Fiona, GeoPandas, SciPy ",
-        "level":"80%"
-      },
-      {
+        {
         "name":"C#",
         "frameworks": ".NET Core, Entity Framework",
-        "level":"70%"
-      },
-      {
-        "name":"Ruby",
-        "frameworks": "Rails, Rspec, Shoulda, Devise, ActiveRecord, Stimulus.js/Hotwire",
-        "level":"65%"
+        "level":"85%"
       },
       {
         "name":"Javascript",
         "frameworks": "Angular, React, Next.js, Node.js, Stimulus.js, D3.js, Material Design",
-        "level":"65%"
+        "level":"80%"
+      },
+      {
+        "name":"Ruby",
+        "frameworks": "Rails, Rspec, Shoulda, Devise, ActiveRecord, Stimulus.js/Hotwire",
+        "level":"75%"
       },
       {
         "name": "DevOps",
-        "frameworks": "Docker, Git, GitHub, Heroku, AWS, Apache, MariaSQL, PostgreSQL, Linux (Manjaro/Arch, Ubuntu, Centos) ",
-        "level": "55%"
+        "frameworks": "Docker, Compose, Containerized deployment, Git, GitHub, AWS, Azure Dev Ops, Heroku, Apache, MariaSQL, PostgreSQL, Linux (Manjaro/Arch, Ubuntu, Centos)",
+        "level": "70%"
+      },
+      {
+        "name":"Python",
+        "frameworks": "NumPy, Pandas, PyCUDA, Matplotlib, GDAL, Rasterio, Fiona, GeoPandas, SciPy ",
+        "level":"60%"
       },
       {
         "name":"C++",
@@ -134,7 +143,16 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Social Media Clone",
+        "title":"Booker (WIP)",
+        "category":"",
+        "description": "Building full‑stack appointment booking system using auth, testing, Docker, and CI/CD pipeline in cloud infrastructure.",
+        "languages":"Ruby on Rails, Docker compose, YAML (GitHub Actions), HTML/CSS, PostgreSQL, Heroku, CI Pipeline",
+        "image":"cal-animation2.gif",
+        "url":"https://rails-booking-cf04f81010ed.herokuapp.com/",
+        "years":"2024"
+      },
+      {
+        "title":"Tweetir",
         "category":"",
         "description": "Simple fullstack monolithic MVC app showcasing modern design principles such as: cloud hosting, CI/CD, unit testing, functional testing, and user authentication.",
         "languages":"Ruby on Rails, HTML/CSS, PostgreSQL, Heroku",
