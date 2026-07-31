@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="3D Printer Leveling Visualizer preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#378add"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <g opacity="0.15">
+    <circle cx="90" cy="90" r="120" fill="#ffffff"/>
+    <circle cx="560" cy="300" r="160" fill="#ffffff"/>
+  </g>
+  <g transform="translate(320,180)">
+    <ellipse cx="0" cy="70" rx="180" ry="26" fill="rgba(0,0,0,0.18)"/>
+    <polygon points="-150,40 150,40 90,-60 -90,-60" fill="#ffffff" opacity="0.92"/>
+    <circle cx="-90" cy="40" r="12" fill="#26251f"/>
+    <circle cx="90" cy="40" r="12" fill="#26251f"/>
+    <circle cx="0" cy="-60" r="12" fill="#26251f"/>
+    <circle cx="-150" cy="40" r="10" fill="#0d9488"/>
+    <circle cx="150" cy="40" r="10" fill="#0d9488"/>
+  </g>
+  <text x="320" y="330" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="15" fill="#ffffff" opacity="0.85">bed-tilt visualizer</text>
+</svg>
