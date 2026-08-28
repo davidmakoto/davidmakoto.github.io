@@ -326,6 +326,11 @@ a.project-card:hover {
 /* Squarer marks need room at the sides, not the top and bottom. */
 .project-media.is-logo.is-portrait img { padding: 9% 10%; }
 
+/* Square artwork: show the whole illustration, letterboxed against its own
+   background, rather than cropping the composition to 3:2. */
+.project-media.is-art { background: var(--logo-bg, var(--panel-2)); }
+.project-media.is-art img { object-fit: contain; }
+
 .project-media.no-media::after { display: flex; }
 .project-media.no-media img { display: none; }
 .project-body {
@@ -584,6 +589,13 @@ footer {
     var(--panel-3) 9px, var(--panel-3) 18px
   );
 }
+/* Heroes that reuse a card logo or square artwork fit inside the frame
+   instead of being cropped to 16:9. */
+.detail-shot.is-logo,
+.detail-shot.is-art { background: var(--logo-bg, var(--panel-2)); }
+.detail-shot.is-logo img { object-fit: contain; padding: 3% 6%; }
+.detail-shot.is-art img { object-fit: contain; }
+
 .detail-shot.no-media::after { display: flex; }
 .detail-shot.no-media img { display: none; }
 
