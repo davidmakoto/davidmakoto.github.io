@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buddy Buddy — David Ward</title>
+  <meta name="description" content="Buddy Buddy — a social matching app for pairing people up around shared goals, habits, and activities.">
+  <meta name="author" content="David Ward">
+  <meta name="theme-color" content="#0e1014">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Buddy Buddy — David Ward">
+  <meta property="og:description" content="Buddy Buddy — a social matching app for pairing people up around shared goals, habits, and activities.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">David Ward</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#research">Research</a></li>
+      <li><a href="../index.html#skills">Skills</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+      <li><button class="theme-btn" id="themeBtn" onclick="toggleTheme()">Dark</button></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+
+    <div class="detail-head">
+      <a href="../index.html#projects" class="crumb">← All projects</a>
+      <h1>Buddy Buddy</h1>
+      <p class="detail-lede">A social matching app for pairing people up around shared goals, habits, and activities.</p>
+    </div>
+
+    <div class="detail-shot" data-fallback="Add buddy-buddy.png">
+      <img src="../assets/buddy-buddy.png" alt="Screenshot of Buddy Buddy" decoding="async">
+    </div>
+
+    <div class="detail-grid">
+      <div class="detail-body">
+        <h2>Overview</h2>
+        <p>Buddy Buddy pairs people who want to do the same thing — train for something, build a habit, pick up a hobby — on the premise that the single biggest predictor of sticking with a goal is having somebody else expecting you to show up.</p>
+        <p>Rather than a feed to scroll, the app is built around the match itself: find someone with a compatible goal and schedule, agree on the commitment, and keep each other honest.</p>
+
+        <h2>What it does</h2>
+        <ul class="feature-list">
+          <li><strong>Goal-based matching.</strong> Paired on what you actually want to do, not just proximity.</li>
+          <li><strong>Shared accountability.</strong> The pairing is the product — both sides commit to the same thing.</li>
+          <li><strong>Habits and activities.</strong> Works for training, studying, hobbies, or any recurring commitment.</li>
+          <li><strong>Lightweight by design.</strong> No endless feed; the app gets out of the way once you are matched.</li>
+        </ul>
+
+        <h2>How it's built</h2>
+        <p>Built as a web app with a matching layer over user goals, availability, and activity preferences, kept deliberately simple so the matching logic stays easy to reason about and tune.</p>
+      </div>
+
+      <aside class="detail-side">
+        <div class="side-row">
+          <span class="side-key">Type</span>
+          <span class="side-val">Social app</span>
+        </div>
+        <div class="side-row">
+          <span class="side-key">Role</span>
+          <span class="side-val">Design &amp; development</span>
+        </div>
+        <div class="side-row">
+          <span class="side-key">Stack</span>
+          <span class="side-val">Web application</span>
+        </div>
+        <div class="side-row">
+          <span class="side-key">Status</span>
+          <span class="side-val">Live</span>
+        </div>
+        <a href="https://buddybuddy.info" class="btn btn-primary" target="_blank" rel="noopener">Visit buddybuddy.info →</a>
+      </aside>
+    </div>
+
+    <div class="detail-nav">
+      <a href="../index.html#projects">← All projects</a>
+      <a href="stem-voodoo.html">Next: STEM Voodoo →</a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>© 2026 David Ward</span>
+    <span>davidmacotoward@gmail.com</span>
+  </div>
+</footer>
+
+<script src="../theme.js" defer></script>
+
+</body>
+</html>

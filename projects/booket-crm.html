@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booket CRM — David Ward</title>
+  <meta name="description" content="Booket CRM — a customer relationship manager focused on bookings, with pipeline, scheduling, and client history in one place.">
+  <meta name="author" content="David Ward">
+  <meta name="theme-color" content="#0e1014">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Booket CRM — David Ward">
+  <meta property="og:description" content="Booket CRM — a customer relationship manager focused on bookings, with pipeline, scheduling, and client history in one place.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">David Ward</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#research">Research</a></li>
+      <li><a href="../index.html#skills">Skills</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+      <li><button class="theme-btn" id="themeBtn" onclick="toggleTheme()">Dark</button></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+
+    <div class="detail-head">
+      <a href="../index.html#projects" class="crumb">← All projects</a>
+      <h1>Booket CRM</h1>
+      <p class="detail-lede">A customer relationship manager focused on bookings — pipeline, scheduling, and client history in one place.</p>
+    </div>
+
+    <div class="detail-shot" data-fallback="Add booket-crm.png">
+      <img src="../assets/booket-crm.png" alt="Screenshot of Booket CRM" decoding="async">
+    </div>
+
+    <div class="detail-grid">
+      <div class="detail-body">
+        <h2>Overview</h2>
+        <p>Most general-purpose CRMs treat a booking as an afterthought bolted onto a sales pipeline. Booket starts from the booking itself: who the client is, what they booked, when it happens, and what has been agreed along the way.</p>
+        <p>That means the day-to-day view is a calendar and a pipeline at the same time, and a client's full history — past bookings, conversations, and notes — sits one click away instead of scattered across email threads and spreadsheets.</p>
+
+        <h2>What it does</h2>
+        <ul class="feature-list">
+          <li><strong>Booking-first pipeline.</strong> Track enquiries through to confirmed bookings without forcing them into a generic sales funnel.</li>
+          <li><strong>Scheduling.</strong> See what is booked and when, alongside the deals still in progress.</li>
+          <li><strong>Client history.</strong> Past bookings, notes, and contact details kept together on one record.</li>
+          <li><strong>Built for small teams.</strong> Fast to set up, with no lengthy configuration before it becomes useful.</li>
+        </ul>
+
+        <h2>How it's built</h2>
+        <p>A full-stack web application: a server-rendered and API-backed data model for clients and bookings, with a front end tuned for quick day-to-day data entry rather than occasional deep-dive reporting.</p>
+      </div>
+
+      <aside class="detail-side">
+        <div class="side-row">
+          <span class="side-key">Type</span>
+          <span class="side-val">SaaS product</span>
+        </div>
+        <div class="side-row">
+          <span class="side-key">Role</span>
+          <span class="side-val">Design &amp; development</span>
+        </div>
+        <div class="side-row">
+          <span class="side-key">Stack</span>
+          <span class="side-val">Full-stack web application</span>
+        </div>
+        <div class="side-row">
+          <span class="side-key">Status</span>
+          <span class="side-val">Live</span>
+        </div>
+        <a href="https://booketcrm.com" class="btn btn-primary" target="_blank" rel="noopener">Visit booketcrm.com →</a>
+      </aside>
+    </div>
+
+    <div class="detail-nav">
+      <a href="../index.html#projects">← All projects</a>
+      <a href="buddy-buddy.html">Next: Buddy Buddy →</a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>© 2026 David Ward</span>
+    <span>davidmacotoward@gmail.com</span>
+  </div>
+</footer>
+
+<script src="../theme.js" defer></script>
+
+</body>
+</html>

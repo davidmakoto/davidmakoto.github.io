@@ -4,20 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>David Ward — Developer &amp; Maker</title>
-  <meta name="description" content="Portfolio of David Ward — developer, maker, and tinkerer. Building tools, web apps, and hardware projects.">
+  <meta name="description" content="Portfolio of David Ward — developer, maker, and researcher. Building web apps, tools, and research software.">
   <meta name="author" content="David Ward">
   <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0e1014">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="David Ward — Developer &amp; Maker">
-  <meta property="og:description" content="Portfolio of David Ward — developer, maker, and tinkerer. Building tools, web apps, and hardware projects.">
+  <meta property="og:description" content="Portfolio of David Ward — developer, maker, and researcher. Building web apps, tools, and research software.">
   <meta property="og:url" content="https://davidtoward.dev">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="David Ward — Developer &amp; Maker">
-  <meta name="twitter:description" content="Portfolio of David Ward — developer, maker, and tinkerer.">
+  <meta name="twitter:description" content="Portfolio of David Ward — developer, maker, and researcher.">
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -29,351 +30,15 @@
     "url": "https://davidward.dev",
     "sameAs": [],
     "jobTitle": "Developer & Maker",
-    "description": "Developer, maker, and tinkerer building tools, web apps, and hardware projects."
+    "description": "Developer, maker, and researcher building web apps, tools, and research software."
   }
   </script>
 
-  <style>
-    :root {
-      --bg: #f7f6f2;
-      --surface: #ffffff;
-      --surface-2: #efede6;
-      --surface-3: #e6e3da;
-      --text: #26251f;
-      --text-2: #5f5e58;
-      --text-3: #8a887f;
-      --border: rgba(0,0,0,0.12);
-      --border-2: rgba(0,0,0,0.22);
-      --accent: #0d9488;
-      --cool: #378add;
-      --radius: 12px;
-      --radius-sm: 8px;
-      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme]) {
-        --bg: #1c1b18; --surface: #26251f; --surface-2: #2e2d26; --surface-3: #3a3830;
-        --text: #ecebe2; --text-2: #b4b2a9; --text-3: #888780;
-        --border: rgba(255,255,255,0.12); --border-2: rgba(255,255,255,0.22);
-      }
-    }
-    [data-theme="dark"] {
-      --bg: #1c1b18; --surface: #26251f; --surface-2: #2e2d26; --surface-3: #3a3830;
-      --text: #ecebe2; --text-2: #b4b2a9; --text-3: #888780;
-      --border: rgba(255,255,255,0.12); --border-2: rgba(255,255,255,0.22);
-    }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: var(--font);
-      line-height: 1.6;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    /* ── Nav ───────────────────────────────── */
-    nav {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: var(--surface);
-      border-bottom: 0.5px solid var(--border);
-      backdrop-filter: blur(8px);
-    }
-    .nav-inner {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 0 1.25rem;
-      height: 52px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .nav-logo {
-      font-weight: 600;
-      font-size: 15px;
-      color: var(--text);
-      text-decoration: none;
-      letter-spacing: -0.01em;
-    }
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      list-style: none;
-    }
-    .nav-links a {
-      color: var(--text-2);
-      text-decoration: none;
-      font-size: 14px;
-      transition: color 0.15s;
-    }
-    .nav-links a:hover { color: var(--text); }
-    .theme-btn {
-      background: var(--surface-2);
-      color: var(--text-2);
-      border: 0.5px solid var(--border-2);
-      border-radius: var(--radius-sm);
-      padding: 5px 10px;
-      font-size: 12px;
-      font-family: var(--font);
-      cursor: pointer;
-    }
-    .theme-btn:hover { background: var(--surface-3); }
-
-    /* ── Layout ────────────────────────────── */
-    .wrap {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 0 1.25rem;
-    }
-    section { padding: 4rem 0; }
-    section + section { border-top: 0.5px solid var(--border); }
-
-    /* ── Hero ──────────────────────────────── */
-    .hero {
-      padding: 5rem 0 4rem;
-    }
-    .hero-tag {
-      display: inline-block;
-      font-size: 12px;
-      font-family: var(--mono);
-      color: var(--accent);
-      background: color-mix(in srgb, var(--accent) 10%, transparent);
-      border: 0.5px solid color-mix(in srgb, var(--accent) 25%, transparent);
-      border-radius: 4px;
-      padding: 2px 8px;
-      margin-bottom: 1rem;
-      letter-spacing: 0.03em;
-    }
-    .hero h1 {
-      font-size: clamp(2rem, 5vw, 3rem);
-      font-weight: 700;
-      letter-spacing: -0.03em;
-      line-height: 1.1;
-      margin-bottom: 1rem;
-    }
-    .hero-desc {
-      font-size: 18px;
-      color: var(--text-2);
-      max-width: 520px;
-      margin-bottom: 1.75rem;
-      line-height: 1.65;
-    }
-    .hero-actions {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 9px 18px;
-      border-radius: var(--radius-sm);
-      font-size: 14px;
-      font-family: var(--font);
-      font-weight: 500;
-      text-decoration: none;
-      cursor: pointer;
-      border: none;
-      transition: opacity 0.15s;
-    }
-    .btn:hover { opacity: 0.85; }
-    .btn-primary { background: var(--accent); color: #fff; }
-    .btn-secondary { background: var(--surface); color: var(--text); border: 0.5px solid var(--border-2); }
-
-    /* ── Section headings ──────────────────── */
-    .section-header { margin-bottom: 2rem; }
-    .section-header h2 {
-      font-size: 22px;
-      font-weight: 600;
-      letter-spacing: -0.02em;
-    }
-    .section-header p {
-      font-size: 14px;
-      color: var(--text-2);
-      margin-top: 4px;
-    }
-
-    /* ── About ─────────────────────────────── */
-    .about-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
-    }
-    @media (max-width: 600px) { .about-grid { grid-template-columns: 1fr; } }
-    .about-text p {
-      color: var(--text-2);
-      font-size: 15px;
-      line-height: 1.7;
-    }
-    .about-text p + p { margin-top: 0.75rem; }
-    .stat-list {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-    .stat-item {
-      background: var(--surface);
-      border: 0.5px solid var(--border);
-      border-radius: var(--radius-sm);
-      padding: 0.75rem 1rem;
-      display: flex;
-      align-items: baseline;
-      gap: 10px;
-    }
-    .stat-num {
-      font-size: 22px;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      color: var(--accent);
-      font-family: var(--mono);
-    }
-    .stat-label { font-size: 13px; color: var(--text-2); }
-
-    /* ── Projects ──────────────────────────── */
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 16px;
-    }
-    .project-card {
-      background: var(--surface);
-      border: 0.5px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.25rem;
-      text-decoration: none;
-      color: inherit;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      transition: border-color 0.15s, box-shadow 0.15s;
-    }
-    .project-card:hover {
-      border-color: var(--accent);
-      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-    }
-    .project-icon {
-      width: 36px;
-      height: 36px;
-      border-radius: 8px;
-      background: var(--surface-2);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-      margin-bottom: 4px;
-    }
-    .project-card h3 {
-      font-size: 15px;
-      font-weight: 600;
-      letter-spacing: -0.01em;
-    }
-    .project-card p {
-      font-size: 13px;
-      color: var(--text-2);
-      line-height: 1.55;
-      flex: 1;
-    }
-    .project-tags {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-      margin-top: 4px;
-    }
-    .tag {
-      font-size: 11px;
-      font-family: var(--mono);
-      color: var(--text-3);
-      background: var(--surface-2);
-      border-radius: 4px;
-      padding: 2px 7px;
-    }
-    .project-arrow {
-      display: flex;
-      align-items: center;
-      gap: 4px;
-      font-size: 12px;
-      color: var(--accent);
-      margin-top: auto;
-      padding-top: 8px;
-      font-weight: 500;
-    }
-
-    /* ── Skills ────────────────────────────── */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 12px;
-    }
-    .skill-group {
-      background: var(--surface);
-      border: 0.5px solid var(--border);
-      border-radius: var(--radius-sm);
-      padding: 1rem;
-    }
-    .skill-group-title {
-      font-size: 12px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: var(--text-3);
-      margin-bottom: 8px;
-    }
-    .skill-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
-    }
-    .skill-chip {
-      font-size: 12px;
-      background: var(--surface-2);
-      color: var(--text-2);
-      border-radius: 4px;
-      padding: 2px 8px;
-    }
-
-    /* ── Contact ───────────────────────────── */
-    .contact-card {
-      background: var(--surface);
-      border: 0.5px solid var(--border);
-      border-radius: var(--radius);
-      padding: 2rem;
-      max-width: 480px;
-    }
-    .contact-card p {
-      color: var(--text-2);
-      font-size: 15px;
-      margin-bottom: 1.25rem;
-    }
-
-    /* ── Footer ────────────────────────────── */
-    footer {
-      border-top: 0.5px solid var(--border);
-      padding: 1.5rem 0;
-    }
-    .footer-inner {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 0 1.25rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-      font-size: 12px;
-      color: var(--text-3);
-    }
-
-    /* ── Responsive nav ────────────────────── */
-    @media (max-width: 480px) {
-      .nav-links li:not(:last-child) { display: none; }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -384,6 +49,7 @@
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#research">Research</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
       <li><button class="theme-btn" id="themeBtn" onclick="toggleTheme()">Dark</button></li>
@@ -396,9 +62,9 @@
   <div class="wrap">
     <section class="hero" aria-labelledby="hero-heading">
       <span class="hero-tag">Available for projects</span>
-      <h1 id="hero-heading">Developer<br>&amp; Maker</h1>
+      <h1 id="hero-heading">Developer<br>&amp; <em>Maker</em></h1>
       <p class="hero-desc">
-        I build web apps, tools, and hardware projects — from interactive visualizers to embedded systems. Focused on things that are useful, fast, and well-crafted.
+        I build web apps, tools, and research software — from product front ends to machine-learning pipelines. Focused on things that are useful, fast, and well-crafted.
       </p>
       <div class="hero-actions">
         <a href="#projects" class="btn btn-primary">View Projects</a>
@@ -409,22 +75,25 @@
     <!-- ── About ──────────────────────────────────── -->
     <section id="about" aria-labelledby="about-heading">
       <div class="section-header">
-        <h2 id="about-heading">About</h2>
-        <p>A bit about who I am and what I do</p>
+        <span class="mono-label">01 / About</span>
+        <div>
+          <h2 id="about-heading">Who I am</h2>
+          <p class="sub">A bit about who I am and what I do</p>
+        </div>
       </div>
       <div class="about-grid">
         <div class="about-text">
-          <p>I'm a developer and maker with a passion for building things that solve real problems. My work spans full-stack web development, interactive tools, and 3D printing &amp; hardware tinkering.</p>
-          <p>When I'm not writing code I'm usually iterating on a printer build, designing a part in CAD, or finding a better way to automate something that shouldn't have been manual in the first place.</p>
+          <p>I'm a developer and maker with a passion for building things that solve real problems. My work spans full-stack web development, interactive tools, and applied research — machine learning, geospatial data, and bioinformatics.</p>
+          <p>When I'm not shipping product work I'm usually deep in a dataset, prototyping something in the workshop, or finding a better way to automate something that shouldn't have been manual in the first place.</p>
         </div>
         <div class="stat-list" aria-label="Highlights">
           <div class="stat-item">
-            <span class="stat-num">3D</span>
-            <span class="stat-label">Printing &amp; hardware prototyping</span>
+            <span class="stat-num">Web</span>
+            <span class="stat-label">Full-stack products &amp; interactive tools</span>
           </div>
           <div class="stat-item">
-            <span class="stat-num">Web</span>
-            <span class="stat-label">Full-stack &amp; interactive tools</span>
+            <span class="stat-num">ML</span>
+            <span class="stat-label">Applied research &amp; data pipelines</span>
           </div>
           <div class="stat-item">
             <span class="stat-num">Open</span>
@@ -437,33 +106,94 @@
     <!-- ── Projects ───────────────────────────────── -->
     <section id="projects" aria-labelledby="projects-heading">
       <div class="section-header">
-        <h2 id="projects-heading">Projects</h2>
-        <p>Tools and experiments I've built</p>
+        <span class="mono-label">02 / Projects</span>
+        <div>
+          <h2 id="projects-heading">Things I've built</h2>
+          <p class="sub">Products and tools I've designed and shipped</p>
+        </div>
       </div>
       <div class="projects-grid">
 
-        <!-- Featured: 3D Printer Leveling Visualizer -->
-        <a href="viz.html" class="project-card" aria-label="3D Printer Leveling Visualizer — open interactive tool">
-          <div class="project-icon" aria-hidden="true">🖨️</div>
-          <h3>3D Printer Leveling Visualizer</h3>
-          <p>Interactive simulator for the Sovol SV06 Plus ACE eccentric-nut bed-tilt system. Visualize how rotating each cam affects the bed height plane in real time.</p>
-          <div class="project-tags">
-            <span class="tag">SVG</span>
-            <span class="tag">vanilla JS</span>
-            <span class="tag">3D printing</span>
+        <a href="projects/stem-voodoo.html" class="project-card">
+          <div class="project-media is-logo" style="--logo-bg:#f0fdf4" data-fallback="Add stem-voodoo-logo-trim.png">
+            <img src="assets/stem-voodoo-logo-trim.png" alt="STEM Voodoo logo" loading="lazy" decoding="async">
           </div>
-          <div class="project-arrow" aria-hidden="true">Open tool →</div>
+          <div class="project-body">
+            <div class="project-index">001 — Product</div>
+            <h3>STEM Voodoo</h3>
+            <p>A STEM outreach platform that aims to facilitate community building, highlighting of underrepresented individuals, and aggregation of learning resources.</p>
+            <div class="project-tags">
+              <span class="tag">web app</span>
+              <span class="tag">education</span>
+            </div>
+            <div class="project-arrow" aria-hidden="true">Read more →</div>
+          </div>
         </a>
 
-        <!-- Placeholder project 2 -->
-        <div class="project-card" aria-label="More projects coming soon">
-          <div class="project-icon" aria-hidden="true">⚙️</div>
-          <h3>More Coming Soon</h3>
-          <p>Additional projects are in progress. Check back or get in touch if you'd like to see what I'm working on.</p>
-          <div class="project-tags">
-            <span class="tag">WIP</span>
+        <a href="projects/booket-crm.html" class="project-card">
+          <div class="project-media is-logo is-portrait" style="--logo-bg:#fffafb" data-fallback="Logo coming soon">
+            <img src="assets/booky-logo-trim.png" alt="Booket CRM logo" loading="lazy" decoding="async">
           </div>
+          <div class="project-body">
+            <div class="project-index">002 — Product</div>
+            <h3>Booket CRM</h3>
+            <p>A customer relationship manager focused on SMS communications. Available for web and iOS.</p>
+            <div class="project-tags">
+              <span class="tag">full-stack</span>
+              <span class="tag">SaaS</span>
+            </div>
+            <div class="project-arrow" aria-hidden="true">Read more →</div>
+          </div>
+        </a>
+
+        <a href="projects/buddy-buddy.html" class="project-card">
+          <div class="project-media" data-fallback="Add buddy-buddy.png">
+            <img src="assets/buddy-buddy.png" alt="Screenshot of Buddy Buddy" loading="lazy" decoding="async">
+          </div>
+          <div class="project-body">
+            <div class="project-index">003 — Product</div>
+            <h3>Buddy Buddy</h3>
+            <p>A classroom seating chart tool for teachers. Solving the classic match making algorithm problem has never been easier.</p>
+            <div class="project-tags">
+              <span class="tag">app</span>
+              <span class="tag">social</span>
+            </div>
+            <div class="project-arrow" aria-hidden="true">Read more →</div>
+          </div>
+        </a>
+
+      </div>
+      <p class="aside-line">Also on this site: an interactive <a href="viz.html">bed-tilt visualizer</a> for 3D printer leveling.</p>
+    </section>
+
+    <!-- ── Research ───────────────────────────────── -->
+    <section id="research" aria-labelledby="research-heading">
+      <div class="section-header">
+        <span class="mono-label">03 / Research</span>
+        <div>
+          <h2 id="research-heading">Research</h2>
+          <p class="sub">Applied and academic work</p>
         </div>
+      </div>
+      <div class="research-list">
+
+        <a href="#" class="research-item">
+          <span class="research-name">WATCHER</span>
+          <span class="research-desc">Autonomous wheelchair proof of concept. Submitted for publication 2026.</span>
+          <span class="research-meta">Platform</span>
+        </a>
+
+        <a href="#" class="research-item">
+          <span class="research-name">ML Wildfire Research</span>
+          <span class="research-desc">Machine learning models for wildfire risk prediction and spread modelling from remote-sensing and past fire record data.</span>
+          <span class="research-meta">Machine learning</span>
+        </a>
+
+        <a href="#" class="research-item">
+          <span class="research-name">SuperBiHelix and Protein Domain Annotation Database</span>
+          <span class="research-desc">Bioinformatics projects related to GPCR protein conformational analysis and standardization protein domain annotated formats.</span>
+          <span class="research-meta">Structural Bioinformatics</span>
+        </a>
 
       </div>
     </section>
@@ -471,8 +201,11 @@
     <!-- ── Skills ─────────────────────────────────── -->
     <section id="skills" aria-labelledby="skills-heading">
       <div class="section-header">
-        <h2 id="skills-heading">Skills</h2>
-        <p>Technologies and tools I work with</p>
+        <span class="mono-label">04 / Skills</span>
+        <div>
+          <h2 id="skills-heading">What I work with</h2>
+          <p class="sub">Technologies and tools I work with</p>
+        </div>
       </div>
       <div class="skills-grid">
         <div class="skill-group">
@@ -493,12 +226,12 @@
           </div>
         </div>
         <div class="skill-group">
-          <div class="skill-group-title">Hardware</div>
+          <div class="skill-group-title">Data &amp; ML</div>
           <div class="skill-list">
-            <span class="skill-chip">3D Printing</span>
-            <span class="skill-chip">CAD</span>
-            <span class="skill-chip">FDM/FFF</span>
-            <span class="skill-chip">Klipper</span>
+            <span class="skill-chip">Machine learning</span>
+            <span class="skill-chip">Data pipelines</span>
+            <span class="skill-chip">Bioinformatics</span>
+            <span class="skill-chip">Geospatial data</span>
           </div>
         </div>
         <div class="skill-group">
@@ -516,12 +249,22 @@
     <!-- ── Contact ────────────────────────────────── -->
     <section id="contact" aria-labelledby="contact-heading">
       <div class="section-header">
-        <h2 id="contact-heading">Contact</h2>
-        <p>Let's work on something together</p>
+        <span class="mono-label">05 / Contact</span>
+        <div>
+          <h2 id="contact-heading">Get in touch</h2>
+          <p class="sub">Let's work on something together</p>
+        </div>
       </div>
-      <div class="contact-card">
-        <p>I'm open to freelance projects, collaborations, and interesting problems. Drop me a line — I read every message.</p>
-        <a href="mailto:davidmacotoward@gmail.com" class="btn btn-primary">davidmacotoward@gmail.com</a>
+      <div class="contact-grid">
+        <div>
+          <p>I'm open to freelance projects, collaborations, and interesting problems. Drop me a line — I read every message.</p>
+          <a href="mailto:davidmacotoward@gmail.com" class="btn btn-primary">davidmacotoward@gmail.com</a>
+        </div>
+        <div class="contact-meta">
+          <div><span>Email</span><span>davidmacotoward@gmail.com</span></div>
+          <div><span>Status</span><span>Open to work</span></div>
+          <div><span>Focus</span><span>Web · Tools · Research</span></div>
+        </div>
       </div>
     </section>
   </div>
@@ -531,24 +274,11 @@
 <footer>
   <div class="footer-inner">
     <span>© 2026 David Ward</span>
-    <span>Built with plain HTML, CSS &amp; JS</span>
+    <span>davidmacotoward@gmail.com</span>
   </div>
 </footer>
 
-<script>
-  function toggleTheme() {
-    const cur = document.documentElement.getAttribute('data-theme');
-    const dark = cur ? cur === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-    const next = dark ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', next);
-    document.getElementById('themeBtn').textContent = next === 'dark' ? 'Light' : 'Dark';
-  }
-
-  (function initThemeLabel() {
-    const dark = matchMedia('(prefers-color-scheme: dark)').matches;
-    document.getElementById('themeBtn').textContent = dark ? 'Light' : 'Dark';
-  })();
-</script>
+<script src="theme.js" defer></script>
 
 </body>
 </html>
