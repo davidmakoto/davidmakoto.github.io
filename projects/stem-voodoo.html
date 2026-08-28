@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEM Voodoo — David Ward</title>
+  <meta name="description" content="STEM Voodoo — a hands-on STEM learning project built around interactive, browser-based lessons and experiments.">
+  <meta name="author" content="David Ward">
+  <meta name="theme-color" content="#0e1014">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="STEM Voodoo — David Ward">
+  <meta property="og:description" content="STEM Voodoo — a hands-on STEM learning project built around interactive, browser-based lessons and experiments.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">David Ward</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#research">Research</a></li>
+      <li><a href="../index.html#skills">Skills</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+      <li><button class="theme-btn" id="themeBtn" onclick="toggleTheme()">Dark</button></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+
+    <div class="detail-head">
+      <a href="../index.html#projects" class="crumb">← All projects</a>
+      <h1>STEM Voodoo</h1>
+      <p class="detail-lede">A hands-on STEM learning project built around interactive, browser-based lessons and experiments.</p>
+    </div>
+
+    <div class="detail-shot" data-fallback="Add stem-voodoo.png">
+      <img src="../assets/stem-voodoo.png" alt="Screenshot of STEM Voodoo" decoding="async">
+    </div>
+
+    <div class="detail-grid">
+      <div class="detail-body">
+        <h2>Overview</h2>
+        <p>STEM Voodoo makes science and engineering concepts something you can poke at rather than only read about. Each topic is built as an interactive piece you run directly in the browser — change an input, watch the outcome change, and build intuition from the behaviour rather than from a static diagram.</p>
+        <p>The aim was to keep the barrier to entry as low as possible: no installs, no accounts, no setup. Open a page and start experimenting.</p>
+
+        <h2>What it does</h2>
+        <ul class="feature-list">
+          <li><strong>Interactive lessons.</strong> Concepts presented as things you manipulate, not just text and images.</li>
+          <li><strong>Runs in the browser.</strong> No installation or account required to start.</li>
+          <li><strong>Self-contained topics.</strong> Each experiment stands on its own, so you can jump straight to what interests you.</li>
+          <li><strong>Built for teaching.</strong> Designed to be usable in a classroom or for independent learning.</li>
+        </ul>
+
+        <h2>How it's built</h2>
+        <p>Built as a fast, mostly static front end so pages load instantly and the interactive pieces stay responsive on modest hardware and school networks.</p>
+      </div>
+
+      <aside class="detail-side">
+        <div class="side-row">
+          <span class="side-key">Type</span>
+          <span class="side-val">Education platform</span>
+        </div>
+        <div class="side-row">
+          <span class="side-key">Role</span>
+          <span class="side-val">Design &amp; development</span>
+        </div>
+        <div class="side-row">
+          <span class="side-key">Stack</span>
+          <span class="side-val">Web front end, JavaScript</span>
+        </div>
+        <div class="side-row">
+          <span class="side-key">Status</span>
+          <span class="side-val">Live</span>
+        </div>
+        <a href="https://stemvoodoo.com" class="btn btn-primary" target="_blank" rel="noopener">Visit stemvoodoo.com →</a>
+      </aside>
+    </div>
+
+    <div class="detail-nav">
+      <a href="../index.html#projects">← All projects</a>
+      <a href="booket-crm.html">Next: Booket CRM →</a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>© 2026 David Ward</span>
+    <span>davidmacotoward@gmail.com</span>
+  </div>
+</footer>
+
+<script src="../theme.js" defer></script>
+
+</body>
+</html>
