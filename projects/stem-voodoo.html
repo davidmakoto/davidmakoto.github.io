@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>STEM Voodoo — David Ward</title>
-  <meta name="description" content="STEM Voodoo — a hands-on STEM learning project built around interactive, browser-based lessons and experiments.">
+  <meta name="description" content="STEM Voodoo — a full-stack educational community platform serving 4,000+ members, with forums, a blog CMS, admin tooling, and an AI career-guidance chatbot.">
   <meta name="author" content="David Ward">
   <meta name="theme-color" content="#0e1014">
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="STEM Voodoo — David Ward">
-  <meta property="og:description" content="STEM Voodoo — a hands-on STEM learning project built around interactive, browser-based lessons and experiments.">
+  <meta property="og:description" content="STEM Voodoo — a full-stack educational community platform serving 4,000+ members, with forums, a blog CMS, admin tooling, and an AI career-guidance chatbot.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +39,7 @@
     <div class="detail-head">
       <a href="../index.html#projects" class="crumb">← All projects</a>
       <h1>STEM Voodoo</h1>
-      <p class="detail-lede">A hands-on STEM learning project built around interactive, browser-based lessons and experiments.</p>
+      <p class="detail-lede">A full-stack educational community platform serving 4,000+ members, with an AI career-guidance layer on top.</p>
     </div>
 
     <div class="detail-shot is-logo" style="--logo-bg:#f0fdf4" data-fallback="Add stem-voodoo-logo-trim.png">
@@ -49,37 +49,36 @@
     <div class="detail-grid">
       <div class="detail-body">
         <h2>Overview</h2>
-        <p>STEM Voodoo makes science and engineering concepts something you can poke at rather than only read about. Each topic is built as an interactive piece you run directly in the browser — change an input, watch the outcome change, and build intuition from the behaviour rather than from a static diagram.</p>
-        <p>The aim was to keep the barrier to entry as low as possible: no installs, no accounts, no setup. Open a page and start experimenting.</p>
+        <p>STEM Voodoo is a full-stack educational community platform I architected and built as lead engineer, now serving 4,000+ members. It runs on a Ruby on Rails backend with a React front end, and adds an AI chatbot layer for career guidance on top of the core community features.</p>
 
         <h2>What it does</h2>
         <ul class="feature-list">
-          <li><strong>Interactive lessons.</strong> Concepts presented as things you manipulate, not just text and images.</li>
-          <li><strong>Runs in the browser.</strong> No installation or account required to start.</li>
-          <li><strong>Self-contained topics.</strong> Each experiment stands on its own, so you can jump straight to what interests you.</li>
-          <li><strong>Built for teaching.</strong> Designed to be usable in a classroom or for independent learning.</li>
+          <li><strong>Community forums.</strong> Threaded discussions with moderation tooling and real-time post updates.</li>
+          <li><strong>Markdown blog CMS.</strong> Staff write and publish posts with autosaved drafts.</li>
+          <li><strong>Admin dashboard.</strong> Non-technical staff manage users, content, and RSS-sourced content cards without touching code.</li>
+          <li><strong>Career guidance chatbot (in progress).</strong> A RAG pipeline over recorded interview clips will let members ask career questions and get grounded answers.</li>
         </ul>
 
         <h2>How it's built</h2>
-        <p>Built as a fast, mostly static front end so pages load instantly and the interactive pieces stay responsive on modest hardware and school networks.</p>
+        <p>Rails and PostgreSQL serve the core app on Heroku, while a Python microservice on AWS Lambda handles embedding and retrieval (pgvector) for the chatbot, calling the Claude API for generation.</p>
       </div>
 
       <aside class="detail-side">
         <div class="side-row">
           <span class="side-key">Type</span>
-          <span class="side-val">Education platform</span>
+          <span class="side-val">Education community platform</span>
         </div>
         <div class="side-row">
           <span class="side-key">Role</span>
-          <span class="side-val">Design &amp; development</span>
+          <span class="side-val">Lead engineer &amp; architect</span>
         </div>
         <div class="side-row">
           <span class="side-key">Stack</span>
-          <span class="side-val">Web front end, JavaScript</span>
+          <span class="side-val">Rails, React, PostgreSQL, Python on AWS Lambda</span>
         </div>
         <div class="side-row">
           <span class="side-key">Status</span>
-          <span class="side-val">Live</span>
+          <span class="side-val">Live — 4,000+ members</span>
         </div>
         <a href="https://stemvoodoo.com" class="btn btn-primary" target="_blank" rel="noopener">Visit stemvoodoo.com →</a>
       </aside>
