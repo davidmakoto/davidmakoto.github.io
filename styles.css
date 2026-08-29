@@ -8,7 +8,7 @@
   --ink-3: #7d848d;
   --rule: #101317;
   --rule-soft: #d3d7dd;
-  --accent: #15A25C;
+  --accent: #1BA39D;
   --accent-ink: #ffffff;
   --link: #1b4fd8;
   --shadow: #101317;
@@ -22,7 +22,7 @@
     --bg: #0e1014; --panel: #171a20; --panel-2: #1f232a; --panel-3: #2b3038;
     --ink: #eef0f3; --ink-2: #a4acb7; --ink-3: #737b86;
     --rule: #3a414b; --rule-soft: #2a2f37;
-    --accent: #C1F7DC; --accent-ink: #16181c;
+    --accent: #7FFF9E; --accent-ink: #16181c;
     --link: #7ea6ff; --shadow: #000000;
   }
 }
@@ -30,7 +30,7 @@
   --bg: #0e1014; --panel: #171a20; --panel-2: #1f232a; --panel-3: #2b3038;
   --ink: #eef0f3; --ink-2: #a4acb7; --ink-3: #737b86;
   --rule: #3a414b; --rule-soft: #2a2f37;
-  --accent: #C1F7DC; --accent-ink: #16181c;
+  --accent: #7FFF9E; --accent-ink: #16181c;
   --link: #7ea6ff; --shadow: #000000;
 }
 
@@ -330,6 +330,8 @@ a.project-card:hover {
    background, rather than cropping the composition to 3:2. */
 .project-media.is-art { background: var(--logo-bg, var(--panel-2)); }
 .project-media.is-art img { object-fit: contain; }
+
+.detail-shot.is-art img { object-fit: cover; }
 
 .project-media.no-media::after { display: flex; }
 .project-media.no-media img { display: none; }
