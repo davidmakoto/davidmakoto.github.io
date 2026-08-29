@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Booket CRM — David Ward</title>
-  <meta name="description" content="Booket CRM — a customer relationship manager focused on bookings, with pipeline, scheduling, and client history in one place.">
+  <meta name="description" content="Booket CRM — a TCPA-compliant SMS marketing platform for small businesses, live on the iOS App Store with paying customers.">
   <meta name="author" content="David Ward">
   <meta name="theme-color" content="#0e1014">
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="Booket CRM — David Ward">
-  <meta property="og:description" content="Booket CRM — a customer relationship manager focused on bookings, with pipeline, scheduling, and client history in one place.">
+  <meta property="og:description" content="Booket CRM — a TCPA-compliant SMS marketing platform for small businesses, live on the iOS App Store with paying customers.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +39,7 @@
     <div class="detail-head">
       <a href="../index.html#projects" class="crumb">← All projects</a>
       <h1>Booket CRM</h1>
-      <p class="detail-lede">A customer relationship manager focused on bookings — pipeline, scheduling, and client history in one place.</p>
+      <p class="detail-lede">A TCPA-compliant SMS marketing platform for small businesses, with LLM-assisted message generation.</p>
     </div>
 
     <div class="detail-shot is-logo" style="--logo-bg:#fffafb" data-fallback="Add booky-logo-trim.png">
@@ -49,19 +49,19 @@
     <div class="detail-grid">
       <div class="detail-body">
         <h2>Overview</h2>
-        <p>Most general-purpose CRMs treat a booking as an afterthought bolted onto a sales pipeline. Booket starts from the booking itself: who the client is, what they booked, when it happens, and what has been agreed along the way.</p>
-        <p>That means the day-to-day view is a calendar and a pipeline at the same time, and a client's full history — past bookings, conversations, and notes — sits one click away instead of scattered across email threads and spreadsheets.</p>
+        <p>Booket CRM is a TCPA-compliant SMS marketing platform for small businesses, live on the iOS App Store with paying customers. It layers LLM-assisted message generation on top of standard campaign and billing tooling.</p>
 
         <h2>What it does</h2>
         <ul class="feature-list">
-          <li><strong>Booking-first pipeline.</strong> Track enquiries through to confirmed bookings without forcing them into a generic sales funnel.</li>
-          <li><strong>Scheduling.</strong> See what is booked and when, alongside the deals still in progress.</li>
-          <li><strong>Client history.</strong> Past bookings, notes, and contact details kept together on one record.</li>
-          <li><strong>Built for small teams.</strong> Fast to set up, with no lengthy configuration before it becomes useful.</li>
+          <li><strong>Compliant opt-in forms.</strong> Auto-generates TCPA-compliant sign-up forms with a business's own branding and a QR code link.</li>
+          <li><strong>AI message drafting.</strong> Routes business context through Claude, OpenRouter, and Together.ai to draft campaign messages and suggest tags.</li>
+          <li><strong>Overnight precomputation.</strong> A nightly batch job precomputes tags and candidate messages on low-cost models, cutting per-request latency and cost.</li>
+          <li><strong>Smart send timing.</strong> Flags low-volume windows and auto-generates promo codes to get a campaign live in a few taps.</li>
+          <li><strong>Built-in billing.</strong> Stripe and Apple in-app purchases handle subscriptions, Twilio handles delivery, and Sentry watches production.</li>
         </ul>
 
         <h2>How it's built</h2>
-        <p>A full-stack web application: a server-rendered and API-backed data model for clients and bookings, with a front end tuned for quick day-to-day data entry rather than occasional deep-dive reporting.</p>
+        <p>A Java/Spring Boot backend on PostgreSQL orchestrates campaign workflows, billing, and the LLM routing layer behind a mobile-first dashboard.</p>
       </div>
 
       <aside class="detail-side">
@@ -75,11 +75,11 @@
         </div>
         <div class="side-row">
           <span class="side-key">Stack</span>
-          <span class="side-val">Full-stack web application</span>
+          <span class="side-val">Java/Spring Boot, PostgreSQL, Twilio, Stripe</span>
         </div>
         <div class="side-row">
           <span class="side-key">Status</span>
-          <span class="side-val">Live</span>
+          <span class="side-val">Live on the iOS App Store</span>
         </div>
         <a href="https://booketcrm.com" class="btn btn-primary" target="_blank" rel="noopener">Visit booketcrm.com →</a>
       </aside>
